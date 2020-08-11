@@ -286,8 +286,8 @@
 
 
 .footer{
-      height: 50px; 
-    margin-top: 280px;
+      height: 70px; 
+        margin-top: 530px;
 }
 }
 
@@ -297,10 +297,11 @@
 
 
 
-/////////////Responsive code////////////
+/*Responsive code*/
 
 
-@media(min-width: 992px){
+/*
+@media(min-width: 1024px){
     
     
 .hearderset h2{
@@ -347,9 +348,66 @@
 }
     
 }
+*/
 
 @media(min-width: 768px) and (max-width: 991px){
+
+.hearderset{
+    padding-top: 100px;
+    box-sizing: border-box;
+}
     
+.hearderset h2{
+    font-size: 22px;
+    text-transform: capitalize;
+    margin-top: 110px;
+}
+
+.hearderset h1{
+     font-size: 42px;
+     text-transform: capitalize;
+     font-weight: bold;
+}
+    
+    
+.ourservices{
+    height: 1000px;
+}
+    
+.rowsetting h2 {
+    font-size: 21px;
+}
+    
+.portfolio{
+    height: 3800px;
+}
+
+.ourteam{
+    height: 1400px;
+}
+   
+.fa-facebook-f{
+    font-size: 15px;
+}
+
+.fa-twitter-square{
+    font-size: 15px;
+}
+
+.fa-linkedin-in{
+    font-size: 15px;
+}
+    
+
+.social-icons{
+     letter-spacing: -16px;
+     padding-left: 0px;
+}
+    
+.footer{
+      height: 70px; 
+    margin-top: 1020px;
+}
     
  
 }
@@ -411,7 +469,7 @@
     
 .footer{
       height: 50px; 
-    margin-top: 1020px;
+    margin-top: 1150px;
 }
     
 }
@@ -464,7 +522,7 @@
 
     
 .footer{
-      height: 50px; 
+      height: 70px; 
     margin-top: 1020px;
 }
     
@@ -520,9 +578,9 @@
     clear: both;
     }
     
-.footer{
-    height: 50px; 
-    margin-top: 1020px;
+.footer {
+    height: 70px;
+    margin-top: 1150px;
 }
     
 }
