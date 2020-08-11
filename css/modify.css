@@ -185,7 +185,7 @@ footer img {
     
 .copyright-overlay{
     font-size: 20px;
-    padding-top: 50px;
+    padding-top: 40px;
 }
 
 .content{
@@ -240,7 +240,7 @@ footer img {
     
 .copyright-overlay{
     font-size: 20px;
-    padding-top: 50px;
+    padding-top: 40px;
 }
 
 .content{
@@ -298,6 +298,7 @@ footer img {
 .copyright-overlay {
     font-size: 23px;
     text-align: center;
+	 padding: 40px;
 }
 
 #close {
