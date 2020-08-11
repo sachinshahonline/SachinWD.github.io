@@ -1,0 +1,528 @@
+
+
+.container {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  overflow: hidden;
+  width: 100%;
+  height:0;
+  transition: .5s ease;
+}
+
+.Sachin {
+      margin-left: -10px;
+    
+}
+
+.Sachin:hover .overlay {
+  top: 50px;
+  left: -30px;
+    
+  height: 100%;
+  background-image: url(../img/44.jpg);
+  background-size: 100% 100%;
+  width: 200px;
+  height:200px;
+    border-radius: 50%;
+    z-index: 0;
+}
+
+.image-me {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+/*Header section*/
+
+.bgimg{
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.9)), url('../img/body.jpg');
+}
+
+/*
+.fa-facebook-f{
+    width: 100%;
+    height: 5vh;
+    font-size: 105px;
+    background-color: white;
+}
+*/
+
+.fa-facebook-f:hover{
+    background-color: blue;
+    color: aliceblue;
+}
+
+.bg-warning color-icon1 i{
+    margin-left:  left: 500px;
+}
+
+.color-icon2{
+    padding-left: 50px;
+}
+
+.color-icon3{
+    padding-left: 50px;
+}
+
+
+/*
+.fa-twitter-square{
+    color: green;
+    width: 100%;
+    height: 5vh;
+    font-size: 105px;
+    background-color: white;
+    
+}
+*/
+
+.fa-twitter-square:hover{
+    color: darkgreen;
+    background-color: greenyellow;
+}
+
+/*
+.fa-linkedin-in{
+    color: white;
+    width: 100%;
+    height: 5vh;
+    font-size: 105px;
+    background-color: #0077B5;
+}
+*/
+
+.fa-linkedin-in:hover{
+    color: #0077B5;
+    background-color: lightblue;
+}
+
+.social-icons {
+    padding-left: 20%;
+    display: inline-flex;
+    margin-top: -10px;
+    float: left;
+    font-size: 20px;
+}
+
+.hearderset{
+    padding-top: 200px;
+    box-sizing: border-box;
+}
+
+.hearderset h2{
+     font-size: 42px;
+    text-transform: capitalize;
+}
+
+.hearderset h1{
+     font-size: 82px;
+     text-transform: capitalize;
+     font-weight: bold;
+}
+
+.navbar li a:hover{
+    text-decoration: underline;
+}
+
+.color:hover{
+    color: aliceblue;
+    cursor: pointer;
+}
+
+
+.color{
+/*
+    border: 2px solid green;
+    border-radius: 50%;
+*/
+/*    background-color: aquamarine;*/
+    box-shadow: 2px 2px 5px 5px;
+    cursor: pointer;
+}
+
+
+/*Header section Ends*/
+
+
+
+
+/* Main ourservices section Starts*/
+
+
+
+.ourservices{
+    padding: 100px 0px 60px;
+    height: 700px;
+}
+
+.ourservices h1{
+    font-weight: bold;
+    font-size: 50px;
+    text-transform: uppercase;
+}
+
+.ourservices h2{
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.rowsetting{
+    margin: 80px 0px ;
+}
+
+.imgsetting{
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+}
+
+.fa-shopping-cart{
+    margin-top: 26px;
+}
+
+
+
+.fa-desktop{
+    margin-top: 26px;
+}
+
+.fa-lock{
+    margin-top: 24px;
+}
+
+.rowsetting p{
+    color: #6c757d!important;
+    padding: 10px;
+}
+
+
+.rowsetting h2{
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+
+/* Main ourservices section Ends*/
+
+
+/* Main POrfolio section Start*/
+
+
+.portfolio{
+    height: 1100px;
+    width: 100%;
+    padding: 100px 0px 50px;
+}
+
+.portfolio h1{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.card{
+    margin-top: 40px;
+}
+
+
+
+/* Main POrfolio section End*/
+
+
+/* Main Ourteam section start*/
+
+.ourteam{
+    height: 700px;
+    padding: 100px 0px 50px;
+    width: 100%;
+}
+
+
+.ourteam h1{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.teamsetting{
+    margin-top: 50px !important;
+}
+
+
+
+
+.footer{
+      height: 50px; 
+    margin-top: 280px;
+}
+}
+
+.footer h6{
+     line-height: 50px;   
+}
+
+
+
+/////////////Responsive code////////////
+
+
+@media(min-width: 992px){
+    
+    
+.hearderset h2{
+     font-size: 22px;
+    text-transform: capitalize;
+        margin-top: 110px;
+}
+
+.hearderset h1{
+     font-size: 42px;
+     text-transform: capitalize;
+     font-weight: bold;
+}
+    
+    
+.ourservices{
+    height: 1300px;
+}
+    
+.portfolio{
+    height: 2700px;
+}
+
+.ourteam{
+    height: 1400px;
+}
+   
+.fa-facebook-f{
+    font-size: 15px;
+}
+
+.fa-twitter-square{
+    font-size: 15px;
+}
+
+.fa-linkedin-in{
+    font-size: 15px;
+}
+    
+
+.social-icons{
+     letter-spacing: -16px;
+     padding-left: 0px;
+}
+    
+}
+
+@media(min-width: 768px) and (max-width: 991px){
+    
+    
+ 
+}
+
+@media(min-width: 575px) and (max-width: 767px){
+   
+    
+.hearderset{
+    padding-top: 100px;
+    box-sizing: border-box;
+}
+    
+.hearderset h2{
+    font-size: 22px;
+    text-transform: capitalize;
+    margin-top: 110px;
+}
+
+.hearderset h1{
+     font-size: 42px;
+     text-transform: capitalize;
+     font-weight: bold;
+}
+    
+    
+.ourservices{
+    height: 1000px;
+}
+    
+.rowsetting h2 {
+    font-size: 21px;
+}
+    
+.portfolio{
+    height: 3800px;
+}
+
+.ourteam{
+    height: 1400px;
+}
+   
+.fa-facebook-f{
+    font-size: 15px;
+}
+
+.fa-twitter-square{
+    font-size: 15px;
+}
+
+.fa-linkedin-in{
+    font-size: 15px;
+}
+    
+
+.social-icons{
+     letter-spacing: -16px;
+     padding-left: 0px;
+}
+    
+.footer{
+      height: 50px; 
+    margin-top: 1020px;
+}
+    
+}
+
+@media(min-width: 480px) and (max-width: 574px){
+    
+    
+.hearderset h2{
+     font-size: 22px;
+    text-transform: capitalize;
+        margin-top: 110px;
+}
+
+.hearderset h1{
+     font-size: 42px;
+     text-transform: capitalize;
+     font-weight: bold;
+}
+    
+    
+.ourservices{
+    height: 2000px;
+}
+    
+.portfolio{
+    height: 2500px;
+}
+
+.ourteam{
+    height: 1400px;
+}
+   
+.fa-facebook-f{
+    font-size: 15px;
+}
+
+.fa-twitter-square{
+    font-size: 15px;
+}
+
+.fa-linkedin-in{
+    font-size: 15px;
+}
+    
+
+.social-icons{
+     letter-spacing: -16px;
+     padding-left: 0px;
+}
+
+    
+.footer{
+      height: 50px; 
+    margin-top: 1020px;
+}
+    
+}
+
+
+@media(max-width: 479px){
+    .hearderset h2{
+     font-size: 22px;
+    text-transform: capitalize;
+        margin-top: 110px;
+}
+
+.hearderset h1{
+     font-size: 42px;
+     text-transform: capitalize;
+     font-weight: bold;
+}
+    
+    
+.ourservices{
+    height: 1650px;
+}
+    
+.portfolio{
+    height: 2650px;
+}
+
+.ourteam{
+    height: 1400px;
+}
+   
+.fa-facebook-f{
+    font-size: 20px;
+}
+
+.fa-twitter-square{
+    font-size: 20px;
+}
+
+.fa-linkedin-in{
+    font-size: 20px;
+}
+    
+
+.social-icons{
+     letter-spacing: -16px;
+     padding-left: 0px;
+     margin-left: -21px !important;
+}
+
+.fixed-top{
+    clear: both;
+    }
+    
+.footer{
+    height: 50px; 
+    margin-top: 1020px;
+}
+    
+}
