@@ -40,6 +40,7 @@
     font-size: 50px;
     overflow: hidden;
     overflow-y: hidden;
+	border-radius: 10px 10px 10px 10px;
     
 }
 
@@ -193,11 +194,12 @@ footer img {
 }
     
 #close {
-    left: 95%;
+    left: 0%;
     font-size: 57px;
     width: 31px;
     height: 71px;
     top: -62px;
+	float: right;
 }
     
 #bluebar {   
@@ -247,11 +249,12 @@ footer img {
 }
     
 #close {
-    left: 95%;
+    left: 0%;
     font-size: 57px;
     width: 31px;
     height: 71px;
     top: -62px;
+	float: right;
 }
     
 #bluebar {   
@@ -298,11 +301,12 @@ footer img {
 }
 
 #close {
-    left: 88%;
+    left: 0%;
     font-size: 56px;
     width: 42px;
     height: 80px;
     top: -66px;
+	float: right;
 }
     
 footer img {
