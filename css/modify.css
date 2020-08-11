@@ -157,7 +157,7 @@ footer img {
 
 /*   Responsive Code  */
 
-@media(min-width: 480px) and (max-width: 670px){
+@media(min-width: 480px) and (max-width: 700px){
     
 .aboutoverlay {
     left: 6px;
