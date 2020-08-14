@@ -1,8 +1,9 @@
 
 
 .container {
-  position: relative;
-  width: 50%;
+    position: relative;
+    max-width: 100% !important;
+    /* height: 100px; */
 }
 
 .image {
@@ -22,15 +23,11 @@
   transition: .5s ease;
 }
 
-.Sachin {
-      margin-left: -10px;
-    
-}
+
 
 .Sachin:hover .overlay {
   top: 50px;
   left: -30px;
-    
   height: 100%;
   background-image: url(../img/44.jpg);
   background-size: 100% 100%;
@@ -132,11 +129,11 @@
 }
 
 .social-icons {
-    padding-left: 20%;
-    display: inline-flex;
-    margin-top: -10px;
+    padding-left: 35%;
+    /* display: inline-flex; */
+    margin-top: 0px;
     float: left;
-    font-size: 20px;
+    /* font-size: 20px; */
 }
 
 .hearderset{
@@ -245,7 +242,7 @@
 
 
 .portfolio{
-    height: 1100px;
+    height: 1430px;
     width: 100%;
     padding: 100px 0px 50px;
 }
@@ -287,7 +284,7 @@
 
 .footer{
       height: 70px; 
-        margin-top: 530px;
+      margin-top: 530px;
 }
 }
 
@@ -488,7 +485,11 @@
      text-transform: capitalize;
      font-weight: bold;
 }
-    
+
+.Sachin {
+    float: left;
+    margin-left: -20px;
+}
     
 .ourservices{
     height: 2000px;
