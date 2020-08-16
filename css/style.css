@@ -1,8 +1,9 @@
 
 
 .container {
-  position: relative;
-  width: 50%;
+    position: relative;
+    max-width: 100% !important;
+    /* height: 100px; */
 }
 
 .image {
@@ -22,15 +23,22 @@
   transition: .5s ease;
 }
 
-.Sachin {
-      margin-left: -10px;
-    
+.colorchange {
+    animation: colorchangethapa 3s infinite;
+    animation-duration: 5s;
+}
+
+
+@keyframes colorchangethapa{
+    0%{color: red; }
+    25%{color: purple; }
+    50%{color: white; }
+    100%{color: yellow; }
 }
 
 .Sachin:hover .overlay {
   top: 50px;
   left: -30px;
-    
   height: 100%;
   background-image: url(../img/44.jpg);
   background-size: 100% 100%;
@@ -132,11 +140,11 @@
 }
 
 .social-icons {
-    padding-left: 20%;
-    display: inline-flex;
-    margin-top: -10px;
+    padding-left: 35%;
+    /* display: inline-flex; */
+    margin-top: 0px;
     float: left;
-    font-size: 20px;
+    /* font-size: 20px; */
 }
 
 .hearderset{
@@ -245,7 +253,7 @@
 
 
 .portfolio{
-    height: 1100px;
+    height: 1430px;
     width: 100%;
     padding: 100px 0px 50px;
 }
@@ -286,8 +294,8 @@
 
 
 .footer{
-      height: 50px; 
-    margin-top: 280px;
+      height: 70px; 
+      margin-top: 530px;
 }
 }
 
@@ -297,10 +305,11 @@
 
 
 
-/////////////Responsive code////////////
+/*Responsive code*/
 
 
-@media(min-width: 992px){
+/*
+@media(min-width: 1024px){
     
     
 .hearderset h2{
@@ -347,9 +356,66 @@
 }
     
 }
+*/
 
 @media(min-width: 768px) and (max-width: 991px){
+
+.hearderset{
+    padding-top: 100px;
+    box-sizing: border-box;
+}
     
+.hearderset h2{
+    font-size: 22px;
+    text-transform: capitalize;
+    margin-top: 110px;
+}
+
+.hearderset h1{
+     font-size: 42px;
+     text-transform: capitalize;
+     font-weight: bold;
+}
+    
+    
+.ourservices{
+    height: 780px;
+}
+    
+.rowsetting h2 {
+    font-size: 21px;
+}
+    
+.portfolio{
+    height: 1030px;
+}
+
+.ourteam{
+    height: 700px;
+}
+   
+.fa-facebook-f{
+    font-size: 15px;
+}
+
+.fa-twitter-square{
+    font-size: 15px;
+}
+
+.fa-linkedin-in{
+    font-size: 15px;
+}
+    
+
+.social-icons{
+     letter-spacing: -16px;
+     padding-left: 0px;
+}
+    
+.footer{
+      height: 70px; 
+    
+}
     
  
 }
@@ -384,7 +450,7 @@
 }
     
 .portfolio{
-    height: 3800px;
+    height: 4380px;
 }
 
 .ourteam{
@@ -411,7 +477,7 @@
     
 .footer{
       height: 50px; 
-    margin-top: 1020px;
+    margin-top: 1150px;
 }
     
 }
@@ -419,7 +485,7 @@
 @media(min-width: 480px) and (max-width: 574px){
     
     
-        .hearderset h2{
+.hearderset h2{
      font-size: 22px;
     text-transform: capitalize;
         margin-top: 110px;
@@ -430,14 +496,18 @@
      text-transform: capitalize;
      font-weight: bold;
 }
+
+.Sachin {
+    float: left;
     
+}
     
 .ourservices{
-    height: 2000px;
+    height: 1330px;
 }
     
 .portfolio{
-    height: 2500px;
+    height: 3420px;
 }
 
 .ourteam{
@@ -464,7 +534,7 @@
 
     
 .footer{
-      height: 50px; 
+      height: 70px; 
     margin-top: 1020px;
 }
     
@@ -520,8 +590,9 @@
     clear: both;
     }
     
-.footer{
-      height: 50px; 
-    margin-top: 1020px;
+.footer {
+    height: 70px;
+    margin-top: 1150px;
 }
+    
 }

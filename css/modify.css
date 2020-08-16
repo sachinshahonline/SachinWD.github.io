@@ -1,4 +1,5 @@
 
+
 #about{
     cursor: pointer;
     
@@ -8,6 +9,8 @@
   text-decoration: underline;
     
 }
+
+
 
 .modal {
   display: none; /* Hidden by default */
@@ -40,7 +43,7 @@
     font-size: 50px;
     overflow: hidden;
     overflow-y: hidden;
-	border-radius: 10px 10px 10px 10px;
+    border-radius: 10px 10px 10px 10px;
     
 }
 
@@ -158,6 +161,7 @@ footer img {
 
 /*   Responsive Code  */
 
+
 @media(min-width: 700px) and (max-width: 1100px){
     
 .aboutoverlay {
@@ -199,7 +203,7 @@ footer img {
     width: 31px;
     height: 71px;
     top: -62px;
-	float: right;
+    float: right;
 }
     
 #bluebar {   
@@ -207,9 +211,6 @@ footer img {
 }
     
 }
-
-
-
 
 
 
@@ -254,7 +255,7 @@ footer img {
     width: 31px;
     height: 71px;
     top: -62px;
-	float: right;
+    float: right;
 }
     
 #bluebar {   
@@ -298,7 +299,7 @@ footer img {
 .copyright-overlay {
     font-size: 23px;
     text-align: center;
-	 padding: 40px;
+    padding: 40px;
 }
 
 #close {
@@ -307,7 +308,7 @@ footer img {
     width: 42px;
     height: 80px;
     top: -66px;
-	float: right;
+    float: right;
 }
     
 footer img {
