@@ -143,7 +143,7 @@
 <!-- Form  -->
 <div id="id01" class="modal-form">
   
-  <form class="modal-content animate" method="post">
+  <form class="modal-content animate" onsubmit="return validateForm()" method="post">
     <div class="imgcontainer">
       <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
       <img src="img/img_avatar.png" alt="Avatar" class="avatar">
@@ -156,7 +156,7 @@
       <label for="psw"><b>Email</b></label>
       <input type="text" placeholder="Enter Email" name="psw" required>
         
-      <button type="submit" onclick="document.location='Thankyou.html'">Subscribe<!-- <img src="img/bell-1.png" width="30" height="30" alt="">--></button>
+      <button type="submit" target="_blank" onclick="Subscribe()">Subscribe<!-- <img src="img/bell-1.png" width="30" height="30" alt="">--></button>
       <label>
         <input type="checkbox" checked="checked" name="remember"> Remember me
       </label>
