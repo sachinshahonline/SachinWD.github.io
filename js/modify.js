@@ -31,12 +31,24 @@ $(document).ready(function(){
 
 //form overlay
 
-// Get the modal
+
 var modal = document.getElementById('id01');
 
-// When the user clicks anywhere outside of the modal, close it
 window.onclick = function(event) {
+    
     if (event.target == modal) {
         modal.style.display = "none";
     }
 }
+
+
+
+
+//function validateForm() {
+//    console.log("Hello world!");
+//  var x = document.forms["myForm"]["fname"].value;
+//  if (x == "") {
+//    alert("Name must be filled out");
+//    return false;
+//  }
+//}
