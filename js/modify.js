@@ -42,7 +42,7 @@ window.onclick = function(event) {
 }
 
 function Subscribe() {
-  window.open("Thankyou.html");
+  location.href = "Thankyou.html";
 }
 
 
