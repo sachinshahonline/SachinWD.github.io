@@ -274,8 +274,8 @@ header{
     font-size: 1.2rem;
     color:var(--secondary-font-color);
     margin: 0 1.6rem;
-    animation: spin 3s;
-    animation-delay: .7s;
+    animation: spin 3s infinite;
+    
     
 }
 
