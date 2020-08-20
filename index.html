@@ -20,13 +20,13 @@
 <link rel="stylesheet" href="css/bootstrap4.min.css">
 <link rel="stylesheet" href="css/form-overlay.css">
 
-
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-confirm/3.3.2/jquery-confirm.min.css">
 
 
 <link rel="stylesheet" href="css/font-awesome.min.css">
 <!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">-->
 
-
+ 
 
 
 
@@ -136,28 +136,31 @@
            
             <h2>Welcome to <span class="colorchange">Sachin's Studio!</span></h2>
             <h1>Its nice to be here</h1>
-<!--            <button class="btn btn-warning text-white btn-lg" onclick="document.getElementById('id01').style.display='block'" style="width:auto;" value="Subscribe">Susbcribe</button>-->
-         <a href="Restaurant.html"><button class="btn btn-warning text-white btn-lg">Susbcribe</button></a>
+            <button class="btn btn-warning text-white btn-lg" onclick="document.getElementById('id01').style.display='block'" style="width:auto;" value="Subscribe">Susbcribe</button>
+<!--         <a href="Restaurant.html"><button class="btn btn-warning text-white btn-lg">Susbcribe</button></a>-->
             
 
             
 <!-- Form  -->
 <div id="id01" class="modal-form">
   
-  <form class="modal-content animate" onsubmit="return validateForm()" method="post">
+  <form action="Thankyou.html" class="modal-content animate bg-light" onsubmit="return validation()" method="post">
     <div class="imgcontainer">
       <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
       <img src="img/img_avatar.png" alt="Avatar" class="avatar">
     </div>
 
     <div class="container-form">
-      <label for="uname"><b>Name</b></label>
-      <input type="text" placeholder="Enter Name" name="uname" required>
+      <label><b>Name</b></label>
+      <input type="text" placeholder="Enter Name" id="usernames" name="uname" autocomplete="off" required>
+      <h5 id="usercheck"></h5>
 
       <label for="psw"><b>Email</b></label>
-      <input type="text" placeholder="Enter Email" name="psw" required>
-        
-      <button type="submit" onclick="Subscribe()" value="Submit">Subscribe<!-- <img src="img/bell-1.png" width="30" height="30" alt="">--></button>
+      <input type="text" placeholder="Enter Email" id="password" name="psw" autocomplete="off" required>
+       <h5 id="passcheck"></h5>
+       
+         
+      <button type="submit" value="Submit" id="submitbtn" class="btn btn-primary">Subscribe<!-- <img src="img/bell-1.png" width="30" height="30" alt="">--></button>
       <label>
         <input type="checkbox" checked="checked" name="remember"> Remember me
       </label>
@@ -279,7 +282,7 @@
                       <img id="img" src="img/southwest-rv-adventures.jpg" class="carg-img img-fluid" alt="Theard">
                       <div class="card-body">
                           <h2 class="card-title">Southwest</h2>
-                          <p class="card-text">Web Design</p>
+                          <p class="card-text"><a href="Restaurant.html" target="_blank">Web Design</a></p>
                       </div>
                   </div>
               </div>
@@ -405,7 +408,6 @@
     
     
     
-    
 </body>
 <script defer src="js/all.js"></script> 
 <script defer src="js/brands.js"></script>
@@ -426,5 +428,8 @@
 <!--<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>-->
 <script src="js/bootstrap4.min.js"></script>
 <script src="js/modify.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-confirm/3.3.2/jquery-confirm.min.js"></script> 
+
+
 
 </html>
