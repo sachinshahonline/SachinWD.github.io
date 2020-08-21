@@ -104,12 +104,13 @@ span.psw {
 
 /* The Close Button (x) */
 .close {
-  position: absolute;
-  right: 25px;
-  top: 0;
-  color: #000;
-  font-size: 35px;
-  font-weight: bold;
+    position: relative;
+    right: 2%;
+    /* top: 0%; */
+    color: #fff;
+    font-size: 75px;
+    font-weight: bold;
+    /* z-index: 99999; */
 }
 
 .close:hover,
@@ -197,4 +198,10 @@ span.psw {
     .modal-content {
         width: 90%;
     }
+    
+/*
+    .close {
+       right: 19%;
+}
+*/
 }

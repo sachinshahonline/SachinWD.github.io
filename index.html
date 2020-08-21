@@ -115,7 +115,7 @@
                           <a href="#TEAM" class="nav-link text-white bg-warning">TEAM</a>
                       </li>
                       <li class="nav-item">
-                          <a href="#CONTACT" class="nav-link text-white bg-warning">CONTACT</a>
+                          <a href="#" class="nav-link text-white bg-warning" onclick="document.getElementById('id01').style.display='block'">CONTACT US</a>
                       </li>
                       
                        
@@ -137,13 +137,16 @@
             <h2>Welcome to <span class="colorchange">Sachin's Studio!</span></h2>
             <h1>Its nice to be here</h1>
             <button class="btn btn-warning text-white btn-lg" onclick="document.getElementById('id01').style.display='block'" style="width:auto;" value="Subscribe">Susbcribe</button>
-<!--         <a href="Restaurant.html"><button class="btn btn-warning text-white btn-lg">Susbcribe</button></a>-->
             
 
             
 <!-- Form  -->
 <div id="id01" class="modal-form">
-  
+ 
+
+  <iframe id="" allowtransparency="true" allowfullscreen="true" allow="geolocation; microphone; camera" src="https://forms.app/form/5f3f7091365fa75dc8712019" frameborder="0" style="width: 1px; min-width:80%; height:500px; border:none;"></iframe>
+  <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+<!--
   <form action="https://sachinshahonline.cf/Thankyou.php" class="modal-content animate bg-light" onsubmit="return validation()" method="post">
     <div class="imgcontainer">
       <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
@@ -160,7 +163,7 @@
        <h5 id="passcheck"></h5>
        
          
-      <button type="submit" id="submitbtn" class="btn btn-primary">Subscribe<!-- <img src="img/bell-1.png" width="30" height="30" alt="">--></button>
+      <button type="submit" id="submitbtn" class="btn btn-primary">Subscribe <img src="img/bell-1.png" width="30" height="30" alt=""></button>
       <label>
         <input type="checkbox" checked="checked" name="remember"> Remember me
       </label>
@@ -171,6 +174,7 @@
       <span class="psw">Get <a href="#">Help?</a></span>
     </div>
   </form>
+-->
 </div>
             
       
