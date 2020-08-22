@@ -1,4 +1,26 @@
 
+// $(function(){
+//
+//      var f= $('iframe')
+//
+//    f.load(function(){ 
+//
+//    f.contents().find('.create-form-button').hide(); 
+//
+//    })
+//
+//    })
+//
+//$(document).ready(function(){
+//  $("#displaynone").click(function(){
+//    $("iframe").contents().find(".create-form-button").hide();
+//  });
+//  
+//});
+
+
+
+
 $(document).ready(function(){
   $("#about").click(function(){
     $(".aboutoverlay").animate({top: '150px'},200);
@@ -29,15 +51,18 @@ $(document).ready(function(){
 
 
 
+
+
+
+
+
 //form overlay
-
-
-var modal = document.getElementById('id01');
+var subscribe = document.getElementById('id01');
 
 window.onclick = function(event) {
     
-    if (event.target == modal) {
-        modal.style.display = "none";
+    if (event.target == subscribe) {
+        subscribe.style.display = "none";
     }
 }
 
@@ -139,6 +164,7 @@ $(document).ready(function(){
                         password_check();
                         
                         
+                        
                         if((user_err == true ) && (pass_err == true))
                             
                         {
@@ -148,6 +174,7 @@ $(document).ready(function(){
                             
                             
                         }else{
+                            
                             $.alert({
                                 title: 'Alert!',
                                 content: 'Please Fill the Form Correctly!',
