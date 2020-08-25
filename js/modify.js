@@ -1,23 +1,4 @@
 
-// $(function(){
-//
-//      var f= $('iframe')
-//
-//    f.load(function(){ 
-//
-//    f.contents().find('.create-form-button').hide(); 
-//
-//    })
-//
-//    })
-//
-//$(document).ready(function(){
-//  $("#displaynone").click(function(){
-//    $("iframe").contents().find(".create-form-button").hide();
-//  });
-//  
-//});
-
 
 
 
@@ -32,11 +13,6 @@ $(document).ready(function(){
 });
 
 
-//$(document).ready(function(){
-//  $("#bluebar").click(function(){
-//    $(".aboutoverlay").animate({top: '10%'});
-//  });
-//});
 
 
 

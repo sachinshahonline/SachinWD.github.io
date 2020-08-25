@@ -1,19 +1,4 @@
-.blackpatch {
-    position: relative;
-    width: 53%;
-    height: 80px;
-    top: 92%;
-    left: 21%;
-    z-index: 2222;
-    background-color: #000;
-    border-radius: 1rem;
-}
 
-.blackpatch h5{
-    color: white;
-    align-content: center;
-    padding-top: 3%;
-}
 /*form overlay*/
 
 
@@ -136,7 +121,7 @@ span.psw {
 /* The Close Button (x) */
 .close {
     position: relative;
-    right: 8%;
+    right: 26%;
     /* top: 0%; */
     color: #000;
     font-size: 75px;
@@ -213,12 +198,7 @@ span.psw {
     right: 2%;
 }
     
-.blackpatch {
-    width: 75%;
-    height: 80px;
-    top: 92%;
-    left: 7%;
-}  
+
 
 
 }
@@ -249,23 +229,9 @@ span.psw {
         width: 90%;
 }
     
-    .contact-form {
-  padding-top: 69px;
-}
     
     
-.blackpatch {
-    width: 71%;
-    height: 78px;
-    top: 94%;
-    left: 4%;
-}
-    
-.blackpatch h5 {
-    color: white;
-    align-content: center;
-    padding-top: 12%;
-}
+
     
 
 }
