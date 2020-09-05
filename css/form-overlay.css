@@ -135,12 +135,13 @@ span.psw {
     float: right;
     font-size: 2.5rem;
     font-weight: 700;
-    line-height: 1;
-    color: #000;
+    line-height: 0.9;
+    background: #fff;
     text-shadow: 0 1px 0 #fff;
-    opacity: .5;
-    position: absolute;
-    right: 29%;
+    border-radius: 20%;
+    position: fixed;
+    right: 28%;
+    top: 81px;
 }
 
 .close_subs:hover,
