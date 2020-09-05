@@ -82,7 +82,7 @@
     width: 100%;
     height: 100vh;
     background-size: cover;
-    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.9)), url('../img/body.jpg');
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.8)), url('../img/body.jpg');
 }
 
 /*
@@ -282,6 +282,12 @@
     height: 700px;
     padding: 100px 0px 50px;
     width: 100%;
+}
+
+.overteambgimage {
+    width: 100%;
+    height: 200%;
+    background: linear-gradient(green, red);
 }
 
 

@@ -119,16 +119,34 @@ span.psw {
 }
 
 /* The Close Button (x) */
-.close {
+.close_subs {
     position: relative;
-    right: 26%;
-    /* top: 0%; */
+    left: 66%;
+    top: -90px;
     color: #000;
     font-size: 75px;
     font-weight: bold;
-    background-color: #fff;
+    /* background-color: #fff; */
     border-radius: 32px 40px 15px 10px;
     /* z-index: 99999; */
+}
+
+.close {
+    float: right;
+    font-size: 2.5rem;
+    font-weight: 700;
+    line-height: 1;
+    color: #000;
+    text-shadow: 0 1px 0 #fff;
+    opacity: .5;
+    position: absolute;
+    right: 29%;
+}
+
+.close_subs:hover,
+.close_subs:focus {
+  color: red;
+  cursor: pointer;
 }
 
 .close:hover,
@@ -160,19 +178,24 @@ span.psw {
      display: block;
      float: none;
   }
-  .cancelbtn {
+.cancelbtn {
      width: 100%;
      
   }
     
-    .container-bottom {
+.container-bottom {
     padding: 16px;
     height: 100px;
 }
     
     .modal-content {
         width: 80%;
-    }
+}
+    
+.close {
+    right: 14%;
+}
+    
 }
 
 @media screen and (max-width: 730px) {
@@ -194,9 +217,15 @@ span.psw {
         width: 80%;
     }
     
-    .close {
-    right: 2%;
+.close_subs {
+    top: -67px;
+    left: 65%;
+    font-size: 40px;
 }
+    
+    .close {
+        right: 14%;
+    }
     
 
 
@@ -216,8 +245,15 @@ span.psw {
      
   }
     
+.@media screen and (max-width: 470px)
+.close_subs {
+    top: -67px;
+    left: 65%;
+    font-size: 40px;
+}
+    
 .close {
-    right: 2%;
+    right: 14%;
 }
     
     .container-bottom {
