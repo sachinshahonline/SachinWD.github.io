@@ -1,33 +1,4 @@
 
-const Apify = require('apify');
-
-Apify.main(async () => {
-    const requestQueue = await Apify.openRequestQueue();
-    await requestQueue.addRequest(new Apify.Request({ url: 'https://jsonplaceholder.typicode.com/posts' , method:'POST' }));
-
-    const crawler = new Apify.PuppeteerCrawler({
-        requestQueue,
-
-        handlePageFunction: async ({ page, request }) => {
-            const title = await page.title();
-            const content = await page.content();
-            console.log(`Page ${request.url} succeeded.`);
-
-            // Save data.
-            await Apify.pushData({
-                url: request.url,
-                title,
-                content:content
-            });
-        },
-
-        handleFailedRequestFunction: async ({ request }) => {
-            console.log(`Request ${request.url} failed 4 times`);
-        },
-    });
-
-    await crawler.run();
-});
 
 
 $(document).ready(function(){
