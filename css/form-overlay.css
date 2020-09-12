@@ -83,7 +83,7 @@ span.psw {
 .contact-form {
   display: none; /* Hidden by default */
   position: fixed; /* Stay in place */
-  z-index: 1; /* Sit on top */
+  z-index: 2000; /* Sit on top */
   left: 0;
   top: 0;
   width: 100%; /* Full width */
@@ -197,6 +197,11 @@ span.psw {
     right: 8%;
 }
     
+.navbar-nav {
+    padding-bottom: 60px;
+
+} 
+    
 }
 
 @media screen and (max-width: 730px) {
@@ -228,7 +233,10 @@ span.psw {
         right: 4%;
     }
     
+.navbar-nav {
+    padding-bottom: 60px;
 
+} 
 
 
 }
@@ -246,7 +254,6 @@ span.psw {
      
   }
     
-.@media screen and (max-width: 470px)
 .close_subs {
     top: -67px;
     left: 65%;
@@ -266,7 +273,10 @@ span.psw {
         width: 90%;
 }
     
-    
+.navbar-nav {
+    padding-bottom: 60px;
+
+}    
     
 
     
