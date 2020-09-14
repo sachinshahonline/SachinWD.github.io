@@ -25,9 +25,21 @@ $(document).ready(function(){
 });
 
 
+$(document).ready(function(){
+  $("#service, #portfolio, #about,#team,#contact ").click(function(){
+    $("#collapsenavbar").toggle(500);
+      
+      
+  });
+});
 
-
-
+$(document).ready(function(){
+  $(".navbar-toggler-icon").click(function(){
+    $("#collapsenavbar").toggle(500);
+      
+      
+  });
+});
 
 
 
