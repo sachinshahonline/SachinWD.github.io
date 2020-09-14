@@ -34,7 +34,7 @@ $(document).ready(function(){
 });
 
 $(document).ready(function(){
-  $(".navbar-toggler-icon").click(function(){
+  $(".navbar-toggler").click(function(){
     $("#collapsenavbar").toggle(500);
       
       
