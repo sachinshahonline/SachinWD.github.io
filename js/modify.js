@@ -160,7 +160,7 @@ $(document).ready(function(){
                         if((user_err == true ) && (pass_err == true))
                             
                         {
-                           
+                           $('#id01').hide(0);
                             return true;
                            
                             
