@@ -7,7 +7,7 @@ $(document).ready(function(){
 
 
 $(document).ready(function(){
-  $("#about").click(function(){
+  $("#about , #aboutme").click(function(){
     $(".aboutoverlay").animate({top: '150px'},200);
 //    $(".modal").animate({top: '0px'},200);   
     $("#close").show(500);
