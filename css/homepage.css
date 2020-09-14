@@ -1,0 +1,320 @@
+*{
+margin: 0;
+padding: 0;
+outline: none;
+
+}
+
+html{
+font-size: 10px;
+}
+
+body{
+    background: #ffcc00;
+    width: 70%;
+    height:100%;
+    font-family: 'Asap';font-size: 22px;
+    overflow-x: hidden;
+}
+
+
+.container {
+    position: relative;
+/*    background: #fff;*/
+    width: 100%;
+    height: 50rem;
+    left: 10%;
+    top: 7rem;
+    overflow: hidden;
+/*    transform: translateX(-50%);*/
+    /* transform: translateY(-50%); */
+}
+
+.menu{
+    
+    float: right;
+    
+    
+}
+
+.style{
+    list-style: none;
+    display: flex;
+    align-content: space-between;
+    position: relative;
+    top:-50px;
+    
+}
+
+.nav-item{
+    padding: 2px 20px;
+}
+
+
+.watch:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.archive:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.launch:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.store:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.border-line {
+    position: relative;
+    border: 1px solid black;
+    width: 6rem;
+    top: 2rem;
+    left: 12rem;
+    background: #000;
+}
+
+.border-line-right {
+    position: relative;
+    border: 1px solid black;
+    width: 25rem;
+    height: 2px;
+    top: 2rem;
+    left: 53rem;
+    float: right;
+    background: #000;
+}
+
+
+.subheadline{
+    position: relative;
+    top:4rem;
+    left:12rem;
+}
+
+
+.subheadline h4{
+    position: relative;
+    font-size: 1rem;
+}
+
+
+.large-text {
+    padding-top: 2rem;
+    font-size: 5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.more-info {
+    position: relative;
+    top: 6rem;
+    left: 0;
+    font-size: 1.6rem;
+}
+
+
+.more-info:after {
+    content: '';
+    position: absolute;
+    height: 2px;
+    width: 68px;
+    top: 2rem;
+    left: 0rem;
+    background: #000;
+}
+
+
+.viewall{
+    position: relative;
+    top:12rem;
+    left: 0;
+}
+
+.viewall-icon{
+    position: relative;
+    top:0rem;
+    left: 0;
+}
+
+.viewall-icon .icon1{
+    position: relative;
+    top:1rem;
+    width: 5px;
+    height: 5px;
+    background: #fff;
+}
+
+.viewall-icon .icon2 {
+    position: relative;
+    top: 5px;
+    left: 6px;
+    width: 5px;
+    height: 5px;
+    background: #fff;
+}
+
+.viewall-icon .icon2 {
+    position: relative;
+    top: 5px;
+    left: 6px;
+    width: 5px;
+    height: 5px;
+    background: #fff;
+}
+
+.viewall-icon .icon3 {
+    position: relative;
+    top: 0rem;
+    width: 5px;
+    height: 5px;
+    background: #fff;
+    left: 13px;
+}
+
+.viewall-icon .icon4 {
+    position: relative;
+    top: 2px;
+    width: 5px;
+    height: 5px;
+    background: #fff;
+    left: 13px;
+}
+
+.viewall-icon .icon5 {
+    position: relative;
+    top: -3px;
+    width: 5px;
+    height: 5px;
+    background: #fff;
+    left: 6px;
+}
+
+.viewall-icon .icon6 {
+    position: relative;
+    top: -8px;
+    width: 5px;
+    height: 5px;
+    background: #fff;
+    left: 0px;
+}
+
+
+.viewall-icon .icon7 {
+    position: relative;
+    top: -6px;
+    width: 5px;
+    height: 5px;
+    background: #fff;
+    left: 13px;
+}
+
+.viewall-icon .icon8 {
+    position: relative;
+    top: -11px;
+    width: 5px;
+    height: 5px;
+    background: #fff;
+    left: 6px;
+}
+
+.viewall-icon .icon9 {
+    position: relative;
+    top: -16px;
+    width: 5px;
+    height: 5px;
+    background: #fff;
+    left: 0px;
+}
+
+.viewall h4 {
+    position: relative;
+    top: -33px;
+    font-size: 14px;
+    left: 29px;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+
+.viewall h4:hover {
+    text-decoration: underline;
+}
+
+
+.shoe {
+    float: right;
+    
+
+}
+
+.shoe img {
+    position: relative;
+    top: -159px;
+    width: 100%;
+    height: 100%;
+}
+
+@media only screen and (max-width: 470px) {
+  
+    .container {
+    left: 23%;
+    height: 60rem;
+    overflow: visible;
+
+}
+    
+    .subheadline {
+    position: relative;
+    top: 4rem;
+    left: 0rem;
+}
+    
+    .shoe img {
+    position: relative;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+}
+    
+    .menu{
+    display: none;    
+}
+    
+}
+
+@media only screen and (max-width: 768px) {
+    
+    
+.nav-item {
+    padding: 1px 10px;
+}
+   
+.shoe img {
+    position: relative;
+    top: 21px;
+    width: 100%;
+    height: 100%;
+    left: 55px;
+}
+
+.container {
+    position: relative;
+    /* background: #fff; */
+    width: 100%;
+    height: 50rem;
+    left: 10%;
+    top: 7rem;
+     overflow: visible; 
+    /* transform: translateX(-50%); */
+    /* transform: translateY(-50%); */
+}
+    
+    
+}
+
