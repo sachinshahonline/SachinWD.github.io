@@ -28,19 +28,6 @@
 }
 */
 
-.colorchange {
-    animation: colorchangethapa 3s infinite;
-    animation-duration: 5s;
-}
-
-
-@keyframes colorchangethapa{
-    0%{color: red; }
-    25%{color: purple; }
-    50%{color: white; }
-    100%{color: yellow; }
-}
-
 /*
 .Sachin .overlay {
     position: absolute;
@@ -56,12 +43,31 @@
 }
 */
 
+.colorchange {
+    animation: colorchangethapa 3s infinite;
+    animation-duration: 5s;
+}
+
+
+@keyframes colorchangethapa{
+    0%{color: red; }
+    25%{color: purple; }
+    50%{color: white; }
+    100%{color: yellow; }
+}
+
+
+
 .Sachin img {
     background-size: 100% 100%;
     width: 50px;
     height: auto;
     border-radius: 50%;
     z-index: 0;
+}
+
+.Sachin p{
+    font-size: 1rem;
 }
 
 .image-me {
