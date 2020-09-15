@@ -139,7 +139,7 @@ span.psw {
     text-shadow: 0 1px 0 #fff;
     border-radius: 20%;
     position: fixed;
-    right: 28%;
+    right: 22%;
     top: 81px;
 }
 
@@ -260,7 +260,8 @@ span.psw {
 }
     
 .close {
-    right: 6%;
+    right: 10%;
+    top: 89px;
 }
     
     .container-bottom {
