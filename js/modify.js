@@ -8,8 +8,7 @@ $(document).ready(function(){
 
 $(document).ready(function(){
   $("#about , #aboutme").click(function(){
-    $(".aboutoverlay").animate({top: '150px'},200);
-//    $(".modal").animate({top: '0px'},200);   
+    $(".aboutoverlay").animate({top: '150px'},200); 
     $("#close").show(500);
       $(".aboutoverlay , .modal").show(500);
 
@@ -31,7 +30,7 @@ $(document).ready(function(){
 
 
 $(document).ready(function(){
-  $("#service, #portfolio, #about,#team,#contact ").click(function(){
+  $("#service, #portfolio, #about, #team, #contact ").click(function(){
     $("#collapsenavbar").toggle(500);
       
       
