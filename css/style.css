@@ -41,7 +41,8 @@
     100%{color: yellow; }
 }
 
-.Sachin:hover .overlay {
+/*
+.Sachin .overlay {
     position: absolute;
     left: 18px;
     width: 50px;
@@ -53,6 +54,7 @@
     top: 8px;
     border: 5px solid red;
 }
+*/
 
 .Sachin img {
     background-size: 100% 100%;
