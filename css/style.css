@@ -225,10 +225,11 @@
     height: 700px;
 }
 
-.ourservices h1{
+.ourservices h1 {
     font-weight: bold;
     font-size: 50px;
     text-transform: uppercase;
+    padding-top: 50px;
 }
 
 .ourservices h2{
@@ -288,6 +289,7 @@
 .portfolio h1{
     font-size: 50px;
     font-weight: bold;
+    padding-top: 50px;
 }
 
 .card{
@@ -313,6 +315,7 @@
 .ourteam h1{
     font-size: 50px;
     font-weight: bold;
+    padding-top: 50px;
 }
 
 .teamsetting{
