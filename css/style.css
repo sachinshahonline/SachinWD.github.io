@@ -15,6 +15,7 @@
   height: auto;
 }
 
+/*
 .overlay {
   position: absolute;
   bottom: 100%;
@@ -25,6 +26,7 @@
   height:0;
   transition: .5s ease;
 }
+*/
 
 .colorchange {
     animation: colorchangethapa 3s infinite;
@@ -40,13 +42,22 @@
 }
 
 .Sachin:hover .overlay {
-  top: 50px;
-  left: -30px;
-  height: 100%;
-  background-image: url(../img/44.jpg);
-  background-size: 100% 100%;
-  width: 200px;
-  height:200px;
+    position: absolute;
+    left: 18px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: #fff;
+    opacity: 0.5;
+    transition: .5s;
+    top: 8px;
+    border: 5px solid red;
+}
+
+.Sachin img {
+    background-size: 100% 100%;
+    width: 50px;
+    height: auto;
     border-radius: 50%;
     z-index: 0;
 }
@@ -69,7 +80,11 @@
 
 
 
-
+#aboutme:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    color: red;
+}
 
 
 
@@ -559,7 +574,12 @@
      text-transform: capitalize;
      font-weight: bold;
 }
-    
+ 
+.color {
+    font-size: 16px;
+    box-shadow: 2px 2px 5px 5px;
+    cursor: pointer;
+}
     
 .ourservices{
     height: 1650px;
