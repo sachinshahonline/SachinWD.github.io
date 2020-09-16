@@ -328,11 +328,19 @@
 .footer{
       height: 70px; 
       margin-top: 530px;
-}
+      background: #254;
+      width: 100%;
+      height: 10rem;
+     
 }
 
 .footer h6{
-     line-height: 50px;   
+    position: absolute;
+     line-height: 50px;
+     color: #fff;
+     left: 50%;
+     margin-top: 5%;
+    transform: translateX(-50%);
 }
 
 
@@ -444,8 +452,7 @@
      padding-left: 0px;
 }
     
-.footer{
-      height: 70px; 
+.footer{ 
     
 }
     
@@ -508,7 +515,6 @@
 }
     
 .footer{
-      height: 50px; 
     margin-top: 1150px;
 }
     
@@ -566,7 +572,6 @@
 
     
 .footer{
-      height: 70px; 
     margin-top: 1020px;
 }
     
@@ -628,7 +633,6 @@
     }
     
 .footer {
-    height: 70px;
     margin-top: 1150px;
 }
     
