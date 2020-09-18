@@ -150,9 +150,11 @@
      font-weight: bold;
 }
 
+/*
 .navbar li a:hover{
     text-decoration: underline;
 }
+*/
 
 .fa-twitter-square:hover{
     color: darkgreen;
