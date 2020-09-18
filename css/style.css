@@ -161,8 +161,9 @@
     background-color: greenyellow;
 }
 
+
 /*
-.fa-facebook-f{
+.fa-facebook-f a:hover{
     color: #fff;
 }
 */
@@ -176,6 +177,10 @@
 .social-icons button.facebook:hover{
     background: #3b5998;
     cursor: pointer;
+    color: #fff;
+}
+
+.social-icons button.facebook a:hover {
     color: #fff;
 }
 
@@ -640,6 +645,10 @@
      letter-spacing: -16px;
      padding-left: 0px;
      margin-left: -21px !important;
+}
+    
+.social-icons button{
+     padding: 0;
 }
 
 .fixed-top{
