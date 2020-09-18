@@ -105,7 +105,7 @@
     width: 100%;
     height: 100vh;
     background-size: cover;
-    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.8)), url('../img/body.jpg');
+    background-image: linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.9)), url('../img/body.jpg');
 }
 
 
@@ -156,10 +156,12 @@
 }
 */
 
+/*
 .fa-twitter-square:hover{
     color: darkgreen;
     background-color: greenyellow;
 }
+*/
 
 
 /*
@@ -196,6 +198,10 @@
     color: #fff;
 }
 
+.social-icons button.twitter a:hover {
+    color: #fff;
+}
+
 
 .twitter{
     box-shadow: 2px 2px 5px 5px;
@@ -208,6 +214,9 @@
     color: #fff;
 }
 
+.social-icons button.linkedin a:hover {
+    color: #fff;
+}
 
 .linkedin{
     box-shadow: 2px 2px 5px 5px;
@@ -217,6 +226,10 @@
 .social-icons button.whatsapp:hover{
     background: #25d366;
     cursor: pointer;
+    color: #fff;
+}
+
+.social-icons button.whatsapp a:hover {
     color: #fff;
 }
 
@@ -243,6 +256,8 @@
 .ourservices{
     padding: 100px 0px 60px;
     height: 700px;
+    background: linear-gradient(#0f2862,#4f5f76);
+    color: #fff;
 }
 
 .ourservices h1 {
@@ -282,7 +297,7 @@
 }
 
 .rowsetting p{
-    color: #6c757d!important;
+    color: #fff!important;
     padding: 10px;
 }
 
@@ -304,6 +319,7 @@
     height: 1430px;
     width: 100%;
     padding: 100px 0px 50px;
+    background: linear-gradient(#ff1d58,#1400c6);
 }
 
 .portfolio h1{
@@ -324,13 +340,20 @@
 /* Main Ourteam section start*/
 
 .ourteam{
-    height: 700px;
+    height: 1130px;
     padding: 100px 0px 50px;
     width: 100%;
+    background: linear-gradient(#ff1d58,#0049B7);
 }
 
 
-
+.sachin_button{
+    border-radius: 50px;
+    box-shadow: 2px 2px 5px 5px;
+    cursor: pointer;
+    border: 2px solid red;
+    color: #fff;
+}
 
 .ourteam h1{
     font-size: 50px;
@@ -342,12 +365,16 @@
     margin-top: 50px !important;
 }
 
+figcaption p{
+    color: #fff !important;
+}
+
 
 
 
 .footer {
     height: 70px;
-    margin-top: 750px;
+    margin-top: 0;
     background: #254;
     width: 100%;
     height: 10rem;
@@ -617,15 +644,15 @@
 }
     
 .ourservices{
-    height: 1650px;
+    height: 1670px;
 }
     
 .portfolio{
-    height: 2638px;
+    height: 2978px;
 }
 
 .ourteam{
-    height: 1400px;
+    height: 2550px;
 }
    
 .fa-facebook-f{
@@ -656,7 +683,7 @@
     }
     
 .footer {
-    margin-top: 1200px;
+    margin-top: 0;
     height: 17rem;
 }
     
