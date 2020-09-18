@@ -194,21 +194,49 @@
     text-decoration: underline;
 }
 
-.color:hover{
-    color: aliceblue;
+.facebook:hover{
+    color: #3b5998;
     cursor: pointer;
 }
 
-
-.color{
-/*
-    border: 2px solid green;
-    border-radius: 50%;
-*/
-/*    background-color: aquamarine;*/
+.facebook{
     box-shadow: 2px 2px 5px 5px;
     cursor: pointer;
 }
+
+.twitter:hover{
+    color:  #1da1f2;
+    cursor: pointer;
+}
+
+.twitter{
+    box-shadow: 2px 2px 5px 5px;
+    cursor: pointer;
+}
+
+.linkedin:hover{
+    color:  #007bb5;
+    cursor: pointer;
+}
+
+.linkedin{
+    box-shadow: 2px 2px 5px 5px;
+    cursor: pointer;
+}
+
+.whatsapp:hover{
+    color: #25d366;
+    cursor: pointer;
+}
+
+.whatsapp{
+    box-shadow: 2px 2px 5px 5px;
+    cursor: pointer;
+}
+
+
+
+
 
 
 /*Header section Ends*/
