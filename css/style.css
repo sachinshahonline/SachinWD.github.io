@@ -1,3 +1,7 @@
+
+
+
+
 .navbar{
  box-shadow: 2px 4px 5px 2px !important;
  color: black;
@@ -15,33 +19,8 @@
   height: auto;
 }
 
-/*
-.overlay {
-  position: absolute;
-  bottom: 100%;
-  left: 0;
-  right: 0;
-  overflow: hidden;
-  width: 100%;
-  height:0;
-  transition: .5s ease;
-}
-*/
 
-/*
-.Sachin .overlay {
-    position: absolute;
-    left: 18px;
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    background: #fff;
-    opacity: 0.5;
-    transition: .5s;
-    top: 8px;
-    border: 5px solid red;
-}
-*/
+
 
 .colorchange {
     animation: colorchangethapa 3s infinite;
@@ -151,6 +130,11 @@
 }
 
 
+.social-icons button {
+    border-radius: 50px;
+    border: 5px solid #215;
+}
+
 .social-icons button.facebook:hover{
     background: #3b5998;
     cursor: pointer;
@@ -163,7 +147,7 @@
 }
 
 .facebook{
-    box-shadow: 2px 2px 5px 5px;
+/*    box-shadow: 2px 2px 5px 5px;*/
     cursor: pointer;
 }
 
@@ -176,12 +160,11 @@
 
 .social-icons button.twitter a:hover {
     color: #fff;
-    font-weight: bolder;
 }
 
 
 .twitter{
-    box-shadow: 2px 2px 5px 5px;
+/*    box-shadow: 2px 2px 5px 5px;*/
     cursor: pointer;
 }
 
@@ -197,7 +180,7 @@
 }
 
 .linkedin{
-    box-shadow: 2px 2px 5px 5px;
+/*    box-shadow: 2px 2px 5px 5px;*/
     cursor: pointer;
 }
 
@@ -214,7 +197,7 @@
 
 
 .whatsapp{
-    box-shadow: 2px 2px 5px 5px;
+/*    box-shadow: 2px 2px 5px 5px;*/
     cursor: pointer;
 }
 
@@ -236,8 +219,13 @@
     padding: 100px 0px 60px;
     height: 700px;
     background: linear-gradient(#0f2862,#4f5f76);
-    color: #fff;
+    color: #000;
+    background: radial-gradient(circle at 100% 50%, transparent 20%, #00D4F0 21%, #00D4F0 34%, transparent 35%, transparent),
+      radial-gradient(circle at 0% 50%, transparent 20%, #00D4F0 21%, #00D4F0 34%, transparent 35%, transparent) 0 -50px;
+    background-color: #EEEEEE;
+    background-size: 75px 100px;
 }
+
 
 .ourservices h1 {
     font-weight: bold;
@@ -249,7 +237,9 @@
 .ourservices h2{
     font-weight: bold;
     text-transform: uppercase;
+    background: #fff;
 }
+
 
 .rowsetting{
     margin: 80px 0px ;
@@ -298,7 +288,11 @@
     height: 1430px;
     width: 100%;
     padding: 100px 0px 50px;
-    background: linear-gradient(#ff1d58,#1400c6);
+    background:radial-gradient(circle, transparent 20%, slategray 20%,slategray 80%, transparent 80%, transparent),
+    radial-gradient(circle, transparent 20%, slategray 20%,slategray 80%, transparent 80%, transparent) 50px 50px,
+    linear-gradient(#A8B1BB 8px, transparent 8px) 0 -4px,linear-gradient(90deg, #A8B1BB 8px, transparent 8px) -4px 0;
+    background-color: slategray;
+    background-size: 100px 100px, 100px 100px, 50px 50px, 50px 50px;
 }
 
 .portfolio h1{
@@ -322,7 +316,15 @@
     height: 1130px;
     padding: 100px 0px 50px;
     width: 100%;
-    background: linear-gradient(#ff1d58,#0049B7);
+    background:
+linear-gradient(27deg, #151515 5px, transparent 5px) 0 5px,
+linear-gradient(207deg, #151515 5px, transparent 5px) 10px 0px,
+linear-gradient(27deg, #222 5px, transparent 5px) 0px 10px,
+linear-gradient(207deg, #222 5px, transparent 5px) 10px 5px,
+linear-gradient(90deg, #1b1b1b 10px, transparent 10px),
+linear-gradient(#1d1d1d 25%, #1a1a1a 25%, #1a1a1a 50%, transparent 50%, transparent 75%, #242424 75%, #242424);
+background-color: #131313;
+background-size: 20px 20px;
 }
 
 
@@ -354,9 +356,16 @@ figcaption p{
 .footer {
     height: 70px;
     margin-top: 0;
-    background: #254;
     width: 100%;
     height: 10rem;
+    background-color:black;
+background-image:
+radial-gradient(white, rgba(255,255,255,.2) 2px, transparent 40px),
+radial-gradient(white, rgba(255,255,255,.15) 1px, transparent 30px),
+radial-gradient(white, rgba(255,255,255,.1) 2px, transparent 40px),
+radial-gradient(rgba(255,255,255,.4), rgba(255,255,255,.1) 2px, transparent 30px);
+background-size: 550px 550px, 350px 350px, 250px 250px, 150px 150px;
+background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
 }
 
 .footer h6{
@@ -574,7 +583,7 @@ figcaption p{
 }
 
 .ourteam{
-    height: 1400px;
+    height: 2460px;
 }
    
 .fa-facebook-f{
@@ -597,14 +606,17 @@ figcaption p{
 
     
 .footer{
-    margin-top: 1020px;
+    margin-top: 0px;
+    height: 10rem;
 }
     
 }
 
 
 @media(max-width: 479px){
-    .hearderset h2{
+    
+    
+.hearderset h2{
      font-size: 22px;
     text-transform: capitalize;
         margin-top: 110px;
@@ -624,6 +636,7 @@ figcaption p{
     
 .ourservices{
     height: 1670px;
+    
 }
     
 .portfolio{
@@ -647,10 +660,10 @@ figcaption p{
 }
     
 
-.social-icons{
-     letter-spacing: -16px;
-     padding-left: 0px;
-     margin-left: -21px !important;
+.social-icons {
+    letter-spacing: -16px;
+    padding-left: 0px;
+    margin-left: -15px !important;
 }
     
 .social-icons button{
