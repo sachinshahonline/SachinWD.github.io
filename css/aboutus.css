@@ -1,48 +1,84 @@
-.bgimg1{
-    background-size: 100% 100%;
-    background-attachment: fixed;
+.bgimg1 {
+    /* background-size: cover; */
+    /* background-attachment: fixed; */
     width: 100%;
-    height: 100vh;
+    /* height: 100vh; */
     background-size: cover;
-    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../img/Office.jpg');
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../img/Office.jpg);
 }
 
-.footer {
+
+:root {
+    --main-font: 'Source Sans Pro', sans-serif;
+    --secondary-font: 'Herr Von Muellerhoff' , cursive;
+    --body-font: 'Cabin', sans-serif;
+    --main-font-color-dark: #252525;
+    --secondary-font-color: #c59d5f;
+    --body-font-color: #515151;
+    
+}
+
+#aboutUs {
+    position: relative;
+    margin: 0px;
+    padding: 19rem;
+    overflow: hidden;
+    height: auto;
+}
+
+.white_circle {
+    background-color: rgba(255, 255, 255, 1);
+    height: 460px;
+    display: block;
+    margin: 30px 0px;
+    overflow: hidden;
+    width: 1000px;
+}
+
+
+.white_circle h1 {
+    font-size: 36px;
+    color: #fff;
+    font-family: var(--secondary-font);
+    line-height: 1.2em;
+    text-align: center;
+    /* padding-top: 0px; */
+    padding: 60px;
+    background: #000;
+}
+
+
+
+.footer_about {
     height: 70px;
-    margin-top: 561px;
+    padding: 50px;
     width: 100%;
     height: 10rem;
     background-color: black;
     background-image: radial-gradient(white, rgba(255,255,255,.2) 2px, transparent 40px), radial-gradient(white, rgba(255,255,255,.15) 1px, transparent 30px), radial-gradient(white, rgba(255,255,255,.1) 2px, transparent 40px), radial-gradient(rgba(255,255,255,.4), rgba(255,255,255,.1) 2px, transparent 30px);
     background-size: 550px 550px, 350px 350px, 250px 250px, 150px 150px;
     background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
+    color: #fff;
 }
 
 
-#aboutUs {
-    background-position: top -250px center;
-    margin: 0px;
-    padding: 10rem;
-    overflow: hidden;
-    height: 800px;
-}
 
+@media(max-width: 479px){
+
+.footer_about {
+    padding: 50px 0px 0px 0px;
+}
+    
 .white_circle {
-    background-color: rgba(255, 255, 255, 0.7);
-    max-width: 70%;
-    height: auto;
+    background-color: rgba(255, 255, 255, 1);
+    height: 2010px;
     display: block;
-    border-radius: 50%;
-    margin: 30px 0px;
-    overflow: hidden;
+    margin: -140px -300px;
+    /* overflow: hidden; */
+    width: 300px;
 }
+    
 
+    
 
-.white_circle h1 {
-    font-size: 36px;
-    color: #002466;
-    font-family: Playfair Display;
-    line-height: 1.2em;
-    text-align: center;
-    padding-top: 150px;
 }
