@@ -73,9 +73,17 @@
     background-color: rgba(255, 255, 255, 1);
     height: 2010px;
     display: block;
-    margin: -140px -300px;
+    margin: 220px 30px;
     /* overflow: hidden; */
     width: 300px;
+}
+    
+#aboutUs {
+    position: relative;
+    margin: 0px;
+    padding: 0;
+    overflow: hidden;
+    height: auto;
 }
     
 
