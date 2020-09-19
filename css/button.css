@@ -21,8 +21,7 @@ ul li a {
 }
 */
 
-
-ul li a {
+#collapsenavbar ul li a {
     position: relative;
     top: 0px;
     width: 120px;
@@ -36,7 +35,7 @@ ul li a {
     transform: translateX(-50%);
 }
 
-ul li a::before {
+#collapsenavbar ul li a::before {
     content: '';
     position: absolute;
     top: 10px;
@@ -49,7 +48,7 @@ ul li a::before {
 }
 
 
-ul li a::after {
+#collapsenavbar ul li a::after {
     content: '';
     position: absolute;
     bottom: -20px;
@@ -61,70 +60,70 @@ ul li a::after {
     transform: rotate(0deg) skewX(-45deg);
 }
 
-ul li a:hover{
+#collapsenavbar ul li a:hover{
     transform: perspective(500px) rotate(-30deg) skew(25deg) translate(-20px, -20px);
     box-shadow: -50px 20px 10px rgba(0,0,0,.5);
 }
 
 
 
-ul li:hover:nth-child(1) a{
+#collapsenavbar ul li:hover:nth-child(1) a{
     background: #3b5999;
 }
 
-ul li:hover:nth-child(1) a:before{
+#collapsenavbar ul li:hover:nth-child(1) a:before{
     background: #2e4a86;
 }
 
-ul li:hover:nth-child(1) a:after{
+#collapsenavbar ul li:hover:nth-child(1) a:after{
     background: #4a69ad;
 }
 
-ul li:hover:nth-child(2) a{
+#collapsenavbar ul li:hover:nth-child(2) a{
     background: #55acee;
 }
 
-ul li:hover:nth-child(2) a:before{
+#collapsenavbar ul li:hover:nth-child(2) a:before{
     background: #1ab7ea;
 }
 
-ul li:hover:nth-child(2) a:after{
+#collapsenavbar ul li:hover:nth-child(2) a:after{
     background: #0077b5;
 }
 
-ul li:hover:nth-child(3) a{
+#collapsenavbar ul li:hover:nth-child(3) a{
     background: #dd4b39;
 }
 
-ul li:hover:nth-child(3) a:before{
+#collapsenavbar ul li:hover:nth-child(3) a:before{
     background: #df2029;
 }
 
-ul li:hover:nth-child(3) a:after{
+#collapsenavbar ul li:hover:nth-child(3) a:after{
     background: #ff3300;
 }
 
 
-ul li:hover:nth-child(4) a{
+#collapsenavbar ul li:hover:nth-child(4) a{
     background: #0077B5;
 }
 
-ul li:hover:nth-child(4) a:before{
+#collapsenavbar ul li:hover:nth-child(4) a:before{
     background: #0077b5;
 }
 
-ul li:hover:nth-child(4) a:after{
+#collapsenavbar ul li:hover:nth-child(4) a:after{
     background: #00AFF0;
 }
 
-ul li:hover:nth-child(5) a{
+#collapsenavbar ul li:hover:nth-child(5) a{
     background: #e4405f;
 }
 
-ul li:hover:nth-child(5) a:before{
+#collapsenavbar ul li:hover:nth-child(5) a:before{
     background: #ea4c89;
 }
 
-ul li:hover:nth-child(5) a:after{
+#collapsenavbar ul li:hover:nth-child(5) a:after{
     background: #ff0084;
 }

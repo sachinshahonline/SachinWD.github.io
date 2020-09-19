@@ -21,11 +21,6 @@ ul{
     list-style: none;
 }
 
-.wrapper ul a{
-    text-decoration: none;
-    box-sizing: border-box;
-    
-}
 
 .wrapper ul li{
     width: 50px;

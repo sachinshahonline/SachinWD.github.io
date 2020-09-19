@@ -1,34 +1,35 @@
-
-
-$(document).ready(function(){
-  $("#facebook").click(function(){
-    $(".facebook").attr("href", "https://www.w3schools.com/jquery/");
-  });
-});
-
-$(document).ready(function(){
-  $(".twitter").click(function(){
-    $("#twitter").attr("href", "https://www.w3schools.com/jquery/");
-  });
-});
-
-$(document).ready(function(){
-  $(".instagram").click(function(){
-    $("#instagram").attr("href", "https://www.w3schools.com/jquery/");
-  });
-});
-
-$(document).ready(function(){
-  $(".google").click(function(){
-    $("#google").attr("href", "https://www.w3schools.com/jquery/");
-  });
-});
-
-$(document).ready(function(){
-  $(".whatsapp").click(function(){
-    $("#whatsapp").attr("href", "https://www.w3schools.com/jquery/");
-  });
-});
+//
+//
+//$(document).ready(function(){
+//  $("#facebook").click(function(){
+//    $(".facebook").attr("href", "https://www.w3schools.com/jquery/");
+//  });
+//});
+//
+//$(document).ready(function(){
+//  $(".twitter").click(function(){
+//      console.log("hello");
+//    $("#twitter").attr("href", "https://www.w3schools.com/jquery/");
+//  });
+//});
+//
+//$(document).ready(function(){
+//  $(".instagram").click(function(){
+//    $("#instagram").attr("href", "https://www.w3schools.com/jquery/");
+//  });
+//});
+//
+//$(document).ready(function(){
+//  $(".google").click(function(){
+//    $("#google").attr("href", "https://www.w3schools.com/jquery/");
+//  });
+//});
+//
+//$(document).ready(function(){
+//  $(".whatsapp").click(function(){
+//    $("#whatsapp").attr("href", "https://www.w3schools.com/jquery/");
+//  });
+//});
 
 
 $(document).ready(function(){
