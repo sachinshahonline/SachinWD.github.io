@@ -538,7 +538,7 @@ background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
 }
 
 .ourteam{
-    height: 1400px;
+    height: 2500px;
 }
    
 .fa-facebook-f{
@@ -560,7 +560,7 @@ background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
 }
     
 .footer{
-    margin-top: 1150px;
+    margin-top: 0px;
 }
     
 }
@@ -680,6 +680,7 @@ background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
 .social-icons button {
     padding: 0px;
     margin-left: -4px;
+    border: 3px solid #215;
 }
 
 .fixed-top{
