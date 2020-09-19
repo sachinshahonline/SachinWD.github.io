@@ -266,16 +266,27 @@
 }
 
 .rowsetting p{
-    color: #fff!important;
+    color: #fff;
     padding: 10px;
 }
 
+.rowsetting p:hover{
+    background: #fff!important;
+    color: #000;
+    transition: .10s;
+}
 
 .rowsetting h2{
     margin-top: 20px;
     font-weight: bold;
     font-size: 30px;
 }
+
+.rowsetting h2:hover{
+    color: #fff;
+    background:#000; 
+}
+
 
 
 /* Main ourservices section Ends*/
@@ -666,8 +677,9 @@ background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
     margin-left: -15px !important;
 }
     
-.social-icons button{
-     padding: 0;
+.social-icons button {
+    padding: 0px;
+    margin-left: -1px;
 }
 
 .fixed-top{
