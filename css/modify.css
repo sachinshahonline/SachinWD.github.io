@@ -5,10 +5,6 @@
     
 }
 
-#about:hover{
-  text-decoration: underline;
-    
-}
 
 
 
@@ -123,11 +119,11 @@
 }
 
 footer img {
-    width: 20px;
-    height: 20px;
-    margin-top: -4px;
-    background: #fff;
+    width: 40px;
+    height: 40px;
+    margin-top: -8px;
     border-radius: 51px;
+    background: #253;
 }
 
 .middle {
@@ -318,4 +314,5 @@ footer img {
     height: 30px;
     margin-top: -7px;
 }  
+    
 }

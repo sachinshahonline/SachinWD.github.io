@@ -4,7 +4,9 @@
 
 .navbar{
  box-shadow: 2px 4px 5px 2px !important;
- color: black;
+ background: #2f2626;
+ 
+
 }
 
 .container {

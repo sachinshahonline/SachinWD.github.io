@@ -27,9 +27,9 @@ ul li a {
     top: 0px;
     width: 120px;
     height: 59px;
-    background: #000;
+    background: #a8323c;
     text-align: center;
-    /* transform: perspective(1000px) rotate(-30deg) skew(25deg) translate(0,0); */
+    transform: perspective(500px) rotate(-30deg) skew(25deg) translate(-20px, -20px);
     transition: .5s;
     box-shadow: -20px 20px 10px rgba(0,0,0,.5);
     left: 50%;
@@ -43,7 +43,7 @@ ul li a::before {
     left: -20px;
     height: 100%;
     width: 20px;
-    background: #b1b1b1;
+    background: #a8324c;
     transition: .5s;
     transform: rotate(0deg) skewY(-45deg);
 }
@@ -56,7 +56,7 @@ ul li a::after {
     left: -10px;
     height: 20px;
     width: 100%;
-    background: #b1b1b1;
+    background: #a83261;
     transition: .5s;
     transform: rotate(0deg) skewX(-45deg);
 }
@@ -67,11 +67,6 @@ ul li a:hover{
 }
 
 
-/*
-ul li:hover{
-    color: #fff;
-}
-*/
 
 ul li:hover:nth-child(1) a{
     background: #3b5999;
