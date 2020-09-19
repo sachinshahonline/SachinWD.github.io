@@ -135,7 +135,7 @@ span.psw {
     font-size: 2.5rem;
     font-weight: 700;
     line-height: 0.9;
-    background: #fff;
+/*    background: #fff;*/
     text-shadow: 0 1px 0 #fff;
     border-radius: 20%;
     position: fixed;
