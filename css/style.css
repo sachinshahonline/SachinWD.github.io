@@ -353,6 +353,7 @@ background-size: 20px 20px;
     width: 170px;
     font-size: 22px !important;
     transform: skew(5deg , 5deg);
+    background: #009688;
     
 }
 
@@ -360,6 +361,93 @@ background-size: 20px 20px;
     box-shadow: 0px 0px 9px 6px;
 
 }
+
+
+.snehal_button {
+    border-radius: 10px;
+    cursor: pointer;
+    border: 4px solid #978 !important;
+    color: #fff;
+    width: 170px;
+    font-size: 22px !important;
+    transform: skew(5deg , 5deg);
+    background: #125;
+    
+}
+
+.snehal_button:hover {
+    box-shadow: 0px 0px 9px 6px;
+
+}
+
+.suchita_button {
+    border-radius: 10px;
+    cursor: pointer;
+    border: 4px solid #978 !important;
+    color: #fff;
+    width: 170px;
+    font-size: 22px !important;
+    transform: skew(5deg , 5deg);
+    background: #e4405f;
+    
+}
+
+.suchita_button:hover {
+    box-shadow: 0px 0px 9px 6px;
+
+}
+
+.anil_button {
+    border-radius: 10px;
+    cursor: pointer;
+    border: 4px solid #978 !important;
+    color: #fff;
+    width: 170px;
+    font-size: 22px !important;
+    transform: skew(5deg , 5deg);
+    background: #e4405f;
+    
+}
+
+.anil_button:hover {
+    box-shadow: 0px 0px 9px 6px;
+
+}
+
+.sushant_button {
+    border-radius: 10px;
+    cursor: pointer;
+    border: 4px solid #978 !important;
+    color: #fff;
+    width: 170px;
+    font-size: 22px !important;
+    transform: skew(5deg , 5deg);
+    background: #e4405f;
+    
+}
+
+.sushant_button:hover {
+    box-shadow: 0px 0px 9px 6px;
+
+}
+
+.dinesh_button {
+    border-radius: 10px;
+    cursor: pointer;
+    border: 4px solid #978 !important;
+    color: #fff;
+    width: 170px;
+    font-size: 22px !important;
+    transform: skew(5deg , 5deg);
+    background: #e4405f;
+    
+}
+
+.dinesh_button:hover {
+    box-shadow: 0px 0px 9px 6px;
+
+}
+
 
 .ourteam h1{
     font-size: 50px;
