@@ -1,39 +1,8 @@
-//
-//
-//$(document).ready(function(){
-//  $("#facebook").click(function(){
-//    $(".facebook").attr("href", "https://www.w3schools.com/jquery/");
-//  });
-//});
-//
-//$(document).ready(function(){
-//  $(".twitter").click(function(){
-//      console.log("hello");
-//    $("#twitter").attr("href", "https://www.w3schools.com/jquery/");
-//  });
-//});
-//
-//$(document).ready(function(){
-//  $(".instagram").click(function(){
-//    $("#instagram").attr("href", "https://www.w3schools.com/jquery/");
-//  });
-//});
-//
-//$(document).ready(function(){
-//  $(".google").click(function(){
-//    $("#google").attr("href", "https://www.w3schools.com/jquery/");
-//  });
-//});
-//
-//$(document).ready(function(){
-//  $(".whatsapp").click(function(){
-//    $("#whatsapp").attr("href", "https://www.w3schools.com/jquery/");
-//  });
-//});
+
 
 
 $(document).ready(function(){
-  $("#about , #aboutme").click(function(){
+  $("#Sachin_overlay").click(function(){
     $(".aboutoverlay").animate({top: '150px'},200); 
     $("#close").show(500);
       $(".aboutoverlay , .modal").show(500);
@@ -42,14 +11,72 @@ $(document).ready(function(){
 });
 
 
+$(document).ready(function(){
+  $("#Snehal_overlay").click(function(){
+    $(".aboutoverlay_Snehal").animate({top: '150px'},200); 
+    $("#close_Snehal").show(500);
+      $(".aboutoverlay_Snehal , .modal_Snehal").show(500);
+
+  });
+});
+
+
+$(document).ready(function(){
+  $("#Suchita_overlay").click(function(){
+    $(".aboutoverlay_Suchita").animate({top: '150px'},200); 
+    $("#close_Suchita").show(500);
+      $(".aboutoverlay_Suchita , .modal_Suchita").show(500);
+
+  });
+});
+//
+//
+//$(document).ready(function(){
+//  $("#Subhash_overlay").click(function(){
+//    $(".aboutoverlay_Subhash").animate({top: '150px'},200); 
+//    $("#close").show(500);
+//      $(".aboutoverlay_Subhash , .modal_Subhash").show(500);
+//
+//  });
+//});
+//
+//$(document).ready(function(){
+//  $("#Sushant_overlay").click(function(){
+//    $(".aboutoverlay_Sushant").animate({top: '150px'},200); 
+//    $("#close").show(500);
+//      $(".aboutoverlay_Sushant , .modal_Sushant").show(500);
+//
+//  });
+//});
+//
+//
+//$(document).ready(function(){
+//  $("#Anil_overlay").click(function(){
+//    $(".aboutoverlay_Anil").animate({top: '150px'},200); 
+//    $("#close").show(500);
+//      $(".aboutoverlay_Anil , .modal_Anil").show(500);
+//
+//  });
+//});
+//
+//$(document).ready(function(){
+//  $("#Dinesh_overlay").click(function(){
+//    $(".aboutoverlay_Dinesh").animate({top: '150px'},200); 
+//    $("#close").show(500);
+//      $(".aboutoverlay_Dinesh , .modal_Dinesh").show(500);
+//
+//  });
+//});
+
+
 
 
 
 $(document).ready(function(){
-  $("#close").click(function(){
-    $(".aboutoverlay").hide(500);
-    $(".aboutoverlay").animate({top: '-600px'});
-    $(".modal").hide(500);
+  $("#close , #close_Snehal, #close_Suchita").click(function(){
+    $(".aboutoverlay , .aboutoverlay_Snehal, .aboutoverlay_Suchita").hide(500);
+    $(".aboutoverlay , .aboutoverlay_Snehal, .aboutoverlay_Suchita").animate({top: '-600px'});
+    $(".modal , .modal_Snehal, .modal_Suchita").hide(500);
       
   });
 });

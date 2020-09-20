@@ -1,12 +1,5 @@
 
-
-#about{
-    cursor: pointer;
-    
-}
-
-
-
+/*Sachin Overlay*/
 
 .modal {
   display: none; /* Hidden by default */
@@ -79,11 +72,6 @@
     font-family: sans-serif;
 }
 
-#bluebar:hover{
-    
-    color: white;
-    cursor: default;
-}
 
 .content{
     color: white;
@@ -123,45 +111,225 @@ footer img {
     height: 40px;
     margin-top: -8px;
     border-radius: 51px;
-    background: #253;
+    background: #589;
+}
+/*Sachin Overlay Ends*/
+
+/*Snehal overlay*/
+
+
+.modal_Snehal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 9999; /* Sit on top */
+  left: 0;
+  top: 0px;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: hidden; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.7); /* Black w/ opacity */
+ display: none;
+    
+  
 }
 
-.middle {
-  transition: .5s ease;
-  opacity: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  text-align: center;
+.aboutoverlay_Snehal {
+    position: fixed;
+    display: block;
+    max-width: 72%;
+    height: 500px;
+    top: -600px;
+    left: 16%;
+    right: 0;
+    bottom: 0;
+    background-color: #fff!important;
+    text-align: center;
+    font-size: 50px;
+    overflow: hidden;
+    overflow-y: hidden;
+    border-radius: 10px 10px 10px 10px;
+    
 }
 
-.figure:hover .image {
-  opacity: 0.3;
+
+
+    
+#close_Snehal {
+    position: relative;
+    /* background-image: url(../106830.png); */
+    background-size: 100% 100%;
+    width: 6%;
+    height: 108px;
+    top: -92px;
+    left: 94%;
+    display: none;
+    background-color: #ccc!important;
+    /* border: 2px solid black; */
+    /* padding: 0px 0px 0px 0px; */
+    font-size: 75px;
+}
+    
+#close_Snehal:hover{
+    opacity: 0.7;
+    cursor: pointer;
 }
 
-.figure:hover .middle {
-  opacity: 1;
+
+#bluebar_Snehal{
+    position: relative;
+    background-color: #125!important;
+    width: 100%;
+    height: 100px;
+    top: 0px;
+    left: 0px;
+    font-family: sans-serif;
 }
 
-/*
-.image_dinesh {
-  background-image: url(../img/dinesh.jpg);
-    background-size: 100%;
-    width: 300px;
-    height: 300px;
-  color: white;
-  font-size: 16px;
-  padding: 16px 32px;
+
+.content{
+    color: white;
+    font-family: "Segoe UI",Arial,sans-serif;
+    padding-top: 10px;
 }
-*/
+
+.image-snehal {
+    float: left;
+    padding: 80px;
+    
+}
+
+.image-snehal img{
+    width: 200px;
+    height: 200px;
+    
+}
+
+.image-snehal h1{
+    position: absolute;
+    float: left;
+    padding-bottom: 80px;
+    font-family: "Segoe UI",Arial,sans-serif;
+    color:  #256;
+    
+}
+
+
+
+
+/*Snehal Ends*/
+
+
+/*Suchita overlay*/
+
+
+.modal_Suchita {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 9999; /* Sit on top */
+  left: 0;
+  top: 0px;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: hidden; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.7); /* Black w/ opacity */
+ display: none;
+    
+  
+}
+
+.aboutoverlay_Suchita {
+    position: fixed;
+    display: block;
+    max-width: 72%;
+    height: 500px;
+    top: -600px;
+    left: 16%;
+    right: 0;
+    bottom: 0;
+    background-color: #fff!important;
+    text-align: center;
+    font-size: 50px;
+    overflow: hidden;
+    overflow-y: hidden;
+    border-radius: 10px 10px 10px 10px;
+    
+}
+
+
+
+    
+#close_Suchita {
+    position: relative;
+    /* background-image: url(../106830.png); */
+    background-size: 100% 100%;
+    width: 6%;
+    height: 108px;
+    top: -92px;
+    left: 94%;
+    display: none;
+    background-color: #ccc!important;
+    /* border: 2px solid black; */
+    /* padding: 0px 0px 0px 0px; */
+    font-size: 75px;
+}
+    
+#close_Suchita:hover{
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+
+#bluebar_Suchita{
+    position: relative;
+    background-color: #e4405f!important;
+    width: 100%;
+    height: 100px;
+    top: 0px;
+    left: 0px;
+    font-family: sans-serif;
+}
+
+
+.content{
+    color: white;
+    font-family: "Segoe UI",Arial,sans-serif;
+    padding-top: 10px;
+}
+
+.image-suchita {
+    float: left;
+    padding: 80px;
+    
+}
+
+.image-suchita img{
+    width: 200px;
+    height: 200px;
+    
+}
+
+.image-suchita h1{
+    position: absolute;
+    float: left;
+    padding-bottom: 80px;
+    font-family: "Segoe UI",Arial,sans-serif;
+    color:  #e4405f;
+    
+}
+
+
+
+
+/*Suchita Ends*/
 
 /*   Responsive Code  */
 
 
 @media(min-width: 700px) and (max-width: 1100px){
     
+/*Sachin Overlay*/
 .aboutoverlay {
     left: 6px;
     max-width: 98%;
@@ -207,13 +375,114 @@ footer img {
 #bluebar {   
     height: 53px;
 }
+
+/*ENds*/
+    
+/*Snehal Overlay*/
+    
+.aboutoverlay_Snehal {
+    left: 6px;
+    max-width: 98%;
+    position: fixed;
+    height: 220px;
+}
+    
+.image-snehal {
+    float: left;
+    padding: 30px;
+    
+}
+.image-snehal img{
+    width: 100px;
+    height: 100px;
+    
+}
+    
+.image-snehal h1{
+    font-size: 20px;
+    
+}
+    
+.copyright-overlay{
+    font-size: 20px;
+    padding-top: 40px;
+}
+
+.content{
+    font-size: 23px;
+    
+}
+    
+#close_Snehal {
+    left: 0%;
+    font-size: 57px;
+    width: 31px;
+    height: 71px;
+    top: -62px;
+    float: right;
+}
+    
+#bluebar_Snehal {   
+    height: 53px;
+}
+/*Ends*/
+    
+/*Suchita Overlay*/
+    
+.aboutoverlay_Suchita {
+    left: 6px;
+    max-width: 98%;
+    position: fixed;
+    height: 220px;
+}
+    
+.image-suchita {
+    float: left;
+    padding: 30px;
+    
+}
+.image-suchita img{
+    width: 100px;
+    height: 100px;
+    
+}
+    
+.image-suchita h1{
+    font-size: 20px;
+    
+}
+    
+.copyright-overlay{
+    font-size: 20px;
+    padding-top: 40px;
+}
+
+.content{
+    font-size: 23px;
+    
+}
+    
+#close_Suchita {
+    left: 0%;
+    font-size: 57px;
+    width: 31px;
+    height: 71px;
+    top: -62px;
+    float: right;
+}
+    
+#bluebar_Suchita {   
+    height: 53px;
+}
+/*Ends*/
     
 }
 
 
 
 @media(min-width: 480px) and (max-width: 700px){
-    
+   
+/*Sachin Overlay*/
 .aboutoverlay {
     left: 6px;
     max-width: 98%;
@@ -259,11 +528,109 @@ footer img {
 #bluebar {   
     height: 53px;
 }
+
+/*Ends*/
+    
+/*Snehal Overlay*/
+    
+.aboutoverlay_Snehal {
+    left: 6px;
+    max-width: 98%;
+    position: fixed;
+    height: 220px;
+}
+    
+.image-snehal {
+    float: left;
+    padding: 30px;
+    
+}
+.image-snehal img{
+    width: 100px;
+    height: 100px;
+    
+}
+    
+.image-snehal h1{
+    font-size: 20px;
+    
+}
+    
+.copyright-overlay{
+    font-size: 20px;
+    padding-top: 40px;
+}
+
+.content{
+    font-size: 23px;
+    
+}
+    
+#close_Snehal {
+    left: 0%;
+    font-size: 57px;
+    width: 31px;
+    height: 71px;
+    top: -62px;
+    float: right;
+}
+    
+#bluebar_Snehal {   
+    height: 53px;
+}
+/*Ends*/
+    
+/*Snehal Overlay*/
+    
+.aboutoverlay_Suchita {
+    left: 6px;
+    max-width: 98%;
+    position: fixed;
+    height: 220px;
+}
+    
+.image-suchita {
+    float: left;
+    padding: 30px;
+    
+}
+.image-suchita img{
+    width: 100px;
+    height: 100px;
+    
+}
+    
+.image-suchita h1{
+    font-size: 20px;
+    
+}
+    
+.copyright-overlay{
+    font-size: 20px;
+    padding-top: 40px;
+}
+
+
+    
+#close_Suchita {
+    left: 0%;
+    font-size: 57px;
+    width: 31px;
+    height: 71px;
+    top: -62px;
+    float: right;
+}
+    
+#bluebar_Suchita {   
+    height: 53px;
+}
+/*Ends*/
     
 }
     
 @media only screen and (max-width: 480px) {
 
+/*Sachin Overlay*/
     
 .aboutoverlay {
     left: 3px;
@@ -314,5 +681,99 @@ footer img {
     height: 30px;
     margin-top: -7px;
 }  
+    
+/*Ends*/
+    
+/*Snehal Overlay*/
+    
+.aboutoverlay_Snehal {
+    left: 3px;
+    max-width: 98%;
+    position: fixed;
+    height: 470px;
+}
+
+ #bluebar_Snehal {   
+    height: 73px;
+}   
+
+.content{
+    font-size: 33px;
+    
+}
+.image-snehal img{
+    width: 90px;
+    height: 90px;
+    
+}
+    
+.image-snehal {
+    float: left;
+    padding: 40px 130px;
+}  
+.image-snehal h1 {
+    font-size: 25px;
+    left: 100px;
+}    
+.copyright-overlay {
+    font-size: 23px;
+    text-align: center;
+    padding: 40px;
+}
+
+#close_Snehal {
+    left: 0%;
+    font-size: 56px;
+    width: 42px;
+    height: 80px;
+    top: -66px;
+    float: right;
+}
+    
+/*Ends*/
+    
+/*Snehal Overlay*/
+    
+.aboutoverlay_Suchita {
+    left: 3px;
+    max-width: 98%;
+    position: fixed;
+    height: 470px;
+}
+
+ #bluebar_Suchita {   
+    height: 73px;
+}   
+
+
+.image-suchita img{
+    width: 90px;
+    height: 90px;
+    
+}
+    
+.image-suchita {
+    float: left;
+    padding: 40px 130px;
+}  
+.image-suchita h1 {
+    font-size: 25px;
+    left: 100px;
+}    
+.copyright-overlay {
+    font-size: 23px;
+    text-align: center;
+    padding: 40px;
+}
+
+#close_Suchita {
+    left: 0%;
+    font-size: 56px;
+    width: 42px;
+    height: 80px;
+    top: -66px;
+    float: right;
+}
+    
     
 }
