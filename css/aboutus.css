@@ -11,10 +11,18 @@
 
 
 .bgimg1 {
+    height: 55rem;
     width: 100%;
-    height: 100vh;
-    background-size: cover;
-    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../img/Office.jpg);
+    background:
+linear-gradient(27deg, #151515 5px, transparent 5px) 0 5px,
+linear-gradient(207deg, #151515 5px, transparent 5px) 10px 0px,
+linear-gradient(27deg, #222 5px, transparent 5px) 0px 10px,
+linear-gradient(207deg, #222 5px, transparent 5px) 10px 5px,
+linear-gradient(90deg, #1b1b1b 10px, transparent 10px),
+linear-gradient(#1d1d1d 25%, #1a1a1a 25%, #1a1a1a 50%, transparent 50%, transparent 75%, #242424 75%, #242424);
+background-color: #131313;
+background-size: 20px 20px;
+    padding: 10rem;
 }
 
 
@@ -22,31 +30,32 @@
     position: absolute;
     top: 0;
     left: 50%;
-    padding: 19rem;
+    padding: 10rem;
     overflow: hidden;
     height: auto;
     transform: translateX(-50%);
+    width: 100%;
 }
 
 .white_circle {
-    background-color: rgba(255, 255, 255, 1);
-    height: 460px;
+    height: auto;
     display: block;
     margin: 30px 0px;
     overflow: hidden;
-    width: 1000px;
+    width: 100%;
 }
 
 
 .white_circle h1 {
     font-size: 36px;
     color: #fff;
-    font-family: var(--secondary-font);
+    font-family: var( --body-font);
     line-height: 1.2em;
     text-align: center;
      padding-top: 0px; 
     padding: 60px;
     background: #000;
+    height: auto;
 }
 
 
@@ -68,28 +77,140 @@
 }
 
 
+@media(min-width: 768px) and (max-width: 991px){
 
-@media(max-width: 479px){
 
+.bgimg1 {
+    height: 82rem;
+}
+    
+    
 .footer_about {
     padding: 50px 0px 0px 0px;
 }
     
 .white_circle {
-    background-color: rgba(255, 255, 255, 1);
-    height: 2010px;
+    height: auto;
     display: block;
     margin: 220px 30px;
     /* overflow: hidden; */
-    width: 300px;
+    width: 90%;
 }
     
 #aboutUs {
-    position: relative;
     margin: 0px;
     padding: 0;
     overflow: hidden;
     height: auto;
+}
+
+.white_circle h1 {
+    font-size: 36px;
+    line-height: 1.2em;
+    padding: 60px;
+}
+    
+
+
+}
+@media(min-width: 575px) and (max-width: 767px){
+
+.bgimg1 {
+    height: 95rem;
+}
+    
+    
+.footer_about {
+    padding: 50px 0px 0px 0px;
+}
+    
+.white_circle {
+    height: auto;
+    display: block;
+    margin: 220px 30px;
+    /* overflow: hidden; */
+    width: 90%;
+}
+    
+#aboutUs {
+    margin: 0px;
+    padding: 0;
+    overflow: hidden;
+    height: auto;
+}
+
+.white_circle h1 {
+    font-size: 36px;
+    line-height: 1.2em;
+    padding: 60px;
+}
+
+}
+
+@media(min-width: 480px) and (max-width: 574px){
+
+.bgimg1 {
+    height: 116rem;
+}
+    
+    
+.footer_about {
+    padding: 50px 0px 0px 0px;
+}
+    
+.white_circle {
+    height: auto;
+    display: block;
+    margin: 220px 30px;
+    /* overflow: hidden; */
+    width: 90%;
+}
+    
+#aboutUs {
+    margin: 0px;
+    padding: 0;
+    overflow: hidden;
+    height: auto;
+}
+
+.white_circle h1 {
+    font-size: 36px;
+    line-height: 1.2em;
+    padding: 60px;
+}
+
+}
+
+@media(max-width: 479px){
+
+.bgimg1 {
+    height: 194rem;
+}
+    
+    
+.footer_about {
+    padding: 50px 0px 0px 0px;
+}
+    
+.white_circle {
+    height: auto;
+    display: block;
+    margin: 220px 30px;
+    /* overflow: hidden; */
+    width: 90%;
+}
+    
+#aboutUs {
+    margin: 0px;
+    padding: 0;
+    overflow: hidden;
+    height: auto;
+}
+
+.white_circle h1 {
+    font-size: 36px;
+    line-height: 1.2em;
+    padding: 60px;
 }
     
 
