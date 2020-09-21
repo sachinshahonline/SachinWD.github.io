@@ -10,7 +10,7 @@
 
 
 
-.bgimg1 {
+.bgimg2 {
     height: 55rem;
     width: 100%;
     background:
@@ -80,7 +80,7 @@ background-size: 20px 20px;
 @media(min-width: 768px) and (max-width: 991px){
 
 
-.bgimg1 {
+.bgimg2 {
     height: 82rem;
 }
     
@@ -115,7 +115,7 @@ background-size: 20px 20px;
 }
 @media(min-width: 575px) and (max-width: 767px){
 
-.bgimg1 {
+.bgimg2 {
     height: 95rem;
 }
     
@@ -149,7 +149,7 @@ background-size: 20px 20px;
 
 @media(min-width: 480px) and (max-width: 574px){
 
-.bgimg1 {
+.bgimg2 {
     height: 116rem;
 }
     
@@ -183,8 +183,8 @@ background-size: 20px 20px;
 
 @media(max-width: 479px){
 
-.bgimg1 {
-    height: 194rem;
+.bgimg2 {
+    height: 200rem;
 }
     
     
@@ -205,6 +205,7 @@ background-size: 20px 20px;
     padding: 0;
     overflow: hidden;
     height: auto;
+    transform: translateX(-52%);
 }
 
 .white_circle h1 {
