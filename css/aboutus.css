@@ -49,12 +49,12 @@ background-size: 20px 20px;
 .white_circle h1 {
     font-size: 36px;
     color: #fff;
-    font-family: var( --body-font);
+    font-family: var( --main-font);
     line-height: 1.2em;
     text-align: center;
      padding-top: 0px; 
     padding: 60px;
-    background: #000;
+    background: linear-gradient(rgba(125,02,0,0.5),rgba(0,0,0,0.5));
     height: auto;
 }
 
