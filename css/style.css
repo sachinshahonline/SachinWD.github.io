@@ -9,9 +9,8 @@
 
 }
 
-.social-icons {
-    position: absolute;
-    left: 10%;
+.navbar-dark .navbar-toggler {
+    z-index: 999;
 }
 
 
@@ -545,6 +544,12 @@ background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
 .ourteam{
     height: 2650px;
 }
+    
+.social-icons {
+    position: absolute;
+    top: 0;
+    left: 20%;
+}
    
 .social-icons img {
     width: 20%;
@@ -591,6 +596,12 @@ background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
 .ourteam{
     height: 2650px;
 }
+    
+.social-icons {
+    position: absolute;
+    top: 28px;
+    left: 20%;
+}
    
 .social-icons img {
     width: 20%;
@@ -624,7 +635,11 @@ background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
      font-weight: bold;
 }
     
-
+.social-icons {
+    position: absolute;
+    top: 28px;
+    left: 20%;
+}
 
 .social-icons img {
     width: 20%;
