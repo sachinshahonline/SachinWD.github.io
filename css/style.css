@@ -13,9 +13,14 @@
     z-index: 999;
 }
 
+.social-icons {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
 
 .social-icons img {
-    width: 7%;
+    width: 8% !important;
     height: auto;
     left: 10%;
     position: relative;
