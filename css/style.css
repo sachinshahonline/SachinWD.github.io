@@ -9,6 +9,20 @@
 
 }
 
+.social-icons {
+    position: absolute;
+    left: 10%;
+}
+
+
+.social-icons img {
+    width: 7%;
+    height: auto;
+    left: 10%;
+    position: relative;
+    /* padding: 10px 10px 10px 0px; */
+}
+
 .container {
     position: relative;
     max-width: 100% !important;
@@ -124,88 +138,6 @@
      text-transform: capitalize;
      font-weight: bold;
 }
-
-/*
-.social-icons {
-    padding-left: 30%;
-    margin-top: 0px;
-    float: left;
-     font-size: 20px; 
-}
-
-.social-icons button {
-    border-radius: 50px;
-    border: 5px solid #215;
-}
-
-.social-icons button.facebook:hover{
-    background: #3b5998;
-    cursor: pointer;
-    color: #fff;
-}
-
-.social-icons button.facebook a:hover {
-    color: #fff;
-    font-weight: bolder;
-}
-
-.facebook{
-    box-shadow: 2px 2px 5px 5px;
-    cursor: pointer;
-}
-
-
-.social-icons button.twitter:hover{
-    background: #1da1f2;
-    cursor: pointer;
-    color: #fff;
-}
-
-.social-icons button.twitter a:hover {
-    color: #fff;
-}
-
-
-.twitter{
-    box-shadow: 2px 2px 5px 5px;
-    cursor: pointer;
-}
-
-.social-icons button.linkedin:hover{
-    background: #007bb5;
-    cursor: pointer;
-    color: #fff;
-}
-
-.social-icons button.linkedin a:hover {
-    color: #fff;
-    font-weight: bolder;
-}
-
-.linkedin{
-    box-shadow: 2px 2px 5px 5px;
-    cursor: pointer;
-}
-
-.social-icons button.whatsapp:hover{
-    background: #25d366;
-    cursor: pointer;
-    color: #fff;
-}
-
-.social-icons button.whatsapp a:hover {
-    color: #fff;
-    font-weight: bolder;
-}
-
-
-.whatsapp{
-    box-shadow: 2px 2px 5px 5px;
-    cursor: pointer;
-}
-*/
-
-
 
 
 
@@ -524,23 +456,7 @@ background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
     height: 1400px;
 }
    
-.fa-facebook-f{
-    font-size: 15px;
-}
 
-.fa-twitter-square{
-    font-size: 15px;
-}
-
-.fa-linkedin-in{
-    font-size: 15px;
-}
-    
-
-.social-icons{
-     letter-spacing: -16px;
-     padding-left: 0px;
-}
     
 }
 */
@@ -580,24 +496,11 @@ background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
 .ourteam{
     height: 1130px;
 }
-   
-.fa-facebook-f{
-    font-size: 15px;
-}
-
-.fa-twitter-square{
-    font-size: 15px;
-}
-
-.fa-linkedin-in{
-    font-size: 15px;
-}
     
-
-.social-icons{
-     letter-spacing: -16px;
-     padding-left: 0px;
-}
+.social-icons img {
+    display: none;
+    }
+   
     
 .footer{ 
     
@@ -643,22 +546,12 @@ background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
     height: 2650px;
 }
    
-.fa-facebook-f{
-    font-size: 15px;
-}
-
-.fa-twitter-square{
-    font-size: 15px;
-}
-
-.fa-linkedin-in{
-    font-size: 15px;
-}
-    
-
-.social-icons{
-     letter-spacing: -16px;
-     padding-left: 0px;
+.social-icons img {
+    width: 20%;
+    height: auto;
+    /* left: 13%; */
+    position: relative;
+    /* padding: 10px 10px 10px 0px; */
 }
     
 .footer{
@@ -699,22 +592,12 @@ background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
     height: 2650px;
 }
    
-.fa-facebook-f{
-    font-size: 15px;
-}
-
-.fa-twitter-square{
-    font-size: 15px;
-}
-
-.fa-linkedin-in{
-    font-size: 15px;
-}
-    
-
-.social-icons{
-     letter-spacing: -16px;
-     padding-left: 0px;
+.social-icons img {
+    width: 20%;
+    height: auto;
+    /* left: 13%; */
+    position: relative;
+    /* padding: 10px 10px 10px 0px; */
 }
 
     
@@ -740,6 +623,16 @@ background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
      text-transform: capitalize;
      font-weight: bold;
 }
+    
+
+
+.social-icons img {
+    width: 20%;
+    height: auto;
+    /* left: 13%; */
+    position: relative;
+    /* padding: 10px 10px 10px 0px; */
+}
  
 .color {
     font-size: 16px;
@@ -759,35 +652,11 @@ background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
 .ourteam{
     height: 2720px;
 }
-   
-.fa-facebook-f{
-    font-size: 20px;
-}
 
-.fa-twitter-square{
-    font-size: 20px;
-}
-
-.fa-linkedin-in{
-    font-size: 20px;
-}
-    
-
-.social-icons {
-    letter-spacing: -16px;
-    padding-left: 0px;
-    margin-left: -15px !important;
-}
-    
-.social-icons button {
-    padding: 0px;
-    margin-left: -4px;
-    border: 3px solid #215;
-}
 
 .fixed-top{
     clear: both;
-    }
+}
     
 .footer {
     margin-top: 0;

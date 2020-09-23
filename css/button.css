@@ -115,7 +115,23 @@ ul li a .fa{
     background: #ff0084;
 }
 
+#collapsenavbar ul li:hover:nth-child(6) a{
+    background: #015;
+}
+
+#collapsenavbar ul li:hover:nth-child(6) a:before{
+    background: #014;
+}
+
+#collapsenavbar ul li:hover:nth-child(6) a:after{
+    background: #012;
+}
+
 
 .active {
-  background-color: #258!important;
+  background: #258!important;
+}
+
+.active_about {
+  background: #0077B5!important;
 }
