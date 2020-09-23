@@ -12,12 +12,14 @@ font-size: 10px;
 body{
     background: #ffcc00;
     width: 70%;
-    height:200px;
+    height:50%;
     font-family: 'Asap';font-size: 22px;
     overflow-x: hidden;
-    overflow-y: hidden;
 }
 
+.contain{
+    height: 500px;
+}
 
 .container {
     position: relative;
@@ -261,13 +263,21 @@ body{
     height: 100%;
 }
 
-@media only screen and (max-width: 470px) {
+@media only screen and (max-width: 479px) {
   
     .container {
     left: 23%;
     height: 60rem;
     overflow: visible;
 
+}
+    
+body{
+    background: #ffcc00;
+    width: 70%;
+    height:50%;
+    font-family: 'Asap';font-size: 22px;
+    overflow-x: hidden;
 }
     
     .subheadline {
