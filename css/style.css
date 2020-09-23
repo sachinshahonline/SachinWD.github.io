@@ -552,14 +552,14 @@ background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
     
 .social-icons {
     position: absolute;
-    top: 0;
-    left: 20%;
+    top: 10px;
+    left: 25%;
 }
    
 .social-icons img {
-    width: 20%;
+    width: 16% !important;
     height: auto;
-    /* left: 13%; */
+    left: 10%;
     position: relative;
     /* padding: 10px 10px 10px 0px; */
 }
@@ -643,11 +643,11 @@ background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
 .social-icons {
     position: absolute;
     top: 28px;
-    left: 20%;
+    left: 13%;
 }
 
 .social-icons img {
-    width: 20%;
+    width: 20%!important;
     height: auto;
     /* left: 13%; */
     position: relative;
