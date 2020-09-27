@@ -1343,15 +1343,18 @@ footer img {
     
 }
 .image-sachin img{
-    width: 90px;
-    height: 90px;
+    width: 200px;
+    height: 200px;
     
 }
     
 .image-sachin {
     float: left;
-    padding: 40px 130px;
-}  
+    padding: 50px 80px;
+    margin-top: -100px;
+} 
+    
+    
 .image-sachin h1 {
     font-size: 25px;
     left: 100px;
@@ -1451,15 +1454,17 @@ footer img {
 
 
 .image-suchita img{
-    width: 90px;
-    height: 90px;
+    width: 200px;
+    height: 200px;
     
 }
     
 .image-suchita {
     float: left;
-    padding: 40px 130px;
-}  
+    padding: 50px 80px;
+    margin-top: -100px;
+}
+    
 .image-suchita h1 {
     font-size: 25px;
     left: 100px;
@@ -1496,19 +1501,22 @@ footer img {
 
 
 .image-anil img{
-    width: 90px;
-    height: 90px;
+    width: 200px;
+    height: 200px;
     
 }
     
 .image-anil {
     float: left;
-    padding: 40px 130px;
+    padding: 50px 80px;
+    margin-top: -100px;
 }  
+    
 .image-anil h1 {
     font-size: 25px;
     left: 100px;
-}    
+}   
+    
 .copyright-overlay {
     font-size: 23px;
     text-align: center;
@@ -1541,19 +1549,22 @@ footer img {
 
 
 .image-sushant img{
-    width: 90px;
-    height: 90px;
+    width: 200px;
+    height: 200px;
     
 }
     
 .image-sushant {
     float: left;
-    padding: 40px 130px;
+    padding: 50px 80px;
+    margin-top: -100px;
 }  
+    
 .image-sushant h1 {
     font-size: 25px;
     left: 100px;
-}    
+}  
+    
 .copyright-overlay {
     font-size: 23px;
     text-align: center;
@@ -1586,15 +1597,17 @@ footer img {
 
 
 .image-dinesh img{
-    width: 90px;
-    height: 90px;
+    width: 200px;
+    height: 200px;
     
 }
     
 .image-dinesh {
     float: left;
-    padding: 40px 130px;
+    padding: 50px 80px;
+    margin-top: -100px;
 }  
+    
 .image-dinesh h1 {
     font-size: 25px;
     left: 100px;
