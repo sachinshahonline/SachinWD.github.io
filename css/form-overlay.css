@@ -17,7 +17,7 @@ label {
     margin-bottom: 0.5rem;
     float: left;
     padding-left: 10px;
-    color: #000;
+    color: #fff;
 }
 
 
@@ -166,8 +166,8 @@ span.psw {
 
 /* Add Zoom Animation */
 .animate {
-  -webkit-animation: animatezoom 0.6s;
-  animation: animatezoom 0.6s
+  -webkit-animation: animatezoom 1s;
+  animation: animatezoom 1s
 }
 
 @-webkit-keyframes animatezoom {
