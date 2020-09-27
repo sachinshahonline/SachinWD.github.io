@@ -366,6 +366,333 @@ footer img {
 
 /*Suchita Ends*/
 
+
+/*Anil overlay*/
+
+
+.modal_Anil {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 9999; /* Sit on top */
+  left: 0;
+  top: 0px;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: hidden; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.7); /* Black w/ opacity */
+ display: none;
+    
+  
+}
+
+.aboutoverlay_Anil {
+    position: fixed;
+    display: block;
+    max-width: 72%;
+    height: 500px;
+    top: -600px;
+    left: 16%;
+    right: 0;
+    bottom: 0;
+    background-color: #fff!important;
+    text-align: center;
+    font-size: 50px;
+    overflow: hidden;
+    overflow-y: hidden;
+    border-radius: 10px 10px 10px 10px;
+    
+}
+
+
+
+    
+#close_Anil {
+    position: relative;
+    /* background-image: url(../106830.png); */
+    background-size: 100% 100%;
+    width: 6%;
+    height: 108px;
+    top: -92px;
+    left: 94%;
+    display: none;
+    background-color: #ccc!important;
+    /* border: 2px solid black; */
+    /* padding: 0px 0px 0px 0px; */
+    font-size: 75px;
+}
+    
+#close_Anil:hover{
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+
+#bluebar_Anil{
+    position: relative;
+    background-color: #369!important;
+    width: 100%;
+    height: 100px;
+    top: 0px;
+    left: 0px;
+    font-family: sans-serif;
+}
+
+
+.content{
+    color: white;
+    font-family: "Segoe UI",Arial,sans-serif;
+    padding-top: 10px;
+}
+
+.image-anil {
+    float: left;
+    padding: 80px;
+    
+}
+
+.image-anil img{
+    width: 200px;
+    height: 200px;
+    
+}
+
+.image-anil h1{
+    position: absolute;
+    float: left;
+    padding-bottom: 80px;
+    font-family: "Segoe UI",Arial,sans-serif;
+    color:  #e4405f;
+    
+}
+
+/*Anil Ends*/
+
+
+
+
+/*Sushant overlay*/
+
+
+.modal_Sushant {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 9999; /* Sit on top */
+  left: 0;
+  top: 0px;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: hidden; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.7); /* Black w/ opacity */
+ display: none;
+    
+  
+}
+
+.aboutoverlay_Sushant {
+    position: fixed;
+    display: block;
+    max-width: 72%;
+    height: 500px;
+    top: -600px;
+    left: 16%;
+    right: 0;
+    bottom: 0;
+    background-color: #fff!important;
+    text-align: center;
+    font-size: 50px;
+    overflow: hidden;
+    overflow-y: hidden;
+    border-radius: 10px 10px 10px 10px;
+    
+}
+
+
+
+    
+#close_Sushant {
+    position: relative;
+    /* background-image: url(../106830.png); */
+    background-size: 100% 100%;
+    width: 6%;
+    height: 108px;
+    top: -92px;
+    left: 94%;
+    display: none;
+    background-color: #ccc!important;
+    /* border: 2px solid black; */
+    /* padding: 0px 0px 0px 0px; */
+    font-size: 75px;
+}
+    
+#close_Sushant:hover{
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+
+#bluebar_Sushant{
+    position: relative;
+    background-color: #568!important;
+    width: 100%;
+    height: 100px;
+    top: 0px;
+    left: 0px;
+    font-family: sans-serif;
+}
+
+
+.content{
+    color: white;
+    font-family: "Segoe UI",Arial,sans-serif;
+    padding-top: 10px;
+}
+
+.image-sushant {
+    float: left;
+    padding: 80px;
+    
+}
+
+.image-sushant img{
+    width: 200px;
+    height: 200px;
+    
+}
+
+.image-sushant h1{
+    position: absolute;
+    float: left;
+    padding-bottom: 80px;
+    font-family: "Segoe UI",Arial,sans-serif;
+    color:  #e4405f;
+    
+}
+
+/*Sushant Ends*/
+
+
+
+/*Dinesh overlay*/
+
+
+.modal_Dinesh {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 9999; /* Sit on top */
+  left: 0;
+  top: 0px;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: hidden; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.7); /* Black w/ opacity */
+ display: none;
+    
+  
+}
+
+.aboutoverlay_Dinesh {
+    position: fixed;
+    display: block;
+    max-width: 72%;
+    height: 500px;
+    top: -600px;
+    left: 16%;
+    right: 0;
+    bottom: 0;
+    background-color: #fff!important;
+    text-align: center;
+    font-size: 50px;
+    overflow: hidden;
+    overflow-y: hidden;
+    border-radius: 10px 10px 10px 10px;
+    
+}
+
+
+
+    
+#close_Dinesh {
+    position: relative;
+    /* background-image: url(../106830.png); */
+    background-size: 100% 100%;
+    width: 6%;
+    height: 108px;
+    top: -92px;
+    left: 94%;
+    display: none;
+    background-color: #ccc!important;
+    /* border: 2px solid black; */
+    /* padding: 0px 0px 0px 0px; */
+    font-size: 75px;
+}
+    
+#close_Dinesh:hover{
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+
+#bluebar_Dinesh{
+    position: relative;
+    background-color: #256!important;
+    width: 100%;
+    height: 100px;
+    top: 0px;
+    left: 0px;
+    font-family: sans-serif;
+}
+
+
+.content{
+    color: white;
+    font-family: "Segoe UI",Arial,sans-serif;
+    padding-top: 10px;
+}
+
+.image-dinesh {
+    float: left;
+    padding: 80px;
+    
+}
+
+.image-dinesh img{
+    width: 200px;
+    height: 200px;
+    
+}
+
+.image-dinesh h1{
+    position: absolute;
+    float: left;
+    padding-bottom: 80px;
+    font-family: "Segoe UI",Arial,sans-serif;
+    color:  #e4405f;
+    
+}
+
+/*Dinesh Ends*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*   Responsive Code  */
 
 
@@ -419,6 +746,7 @@ footer img {
 }
 
 /*ENds*/
+
     
 /*Snehal Overlay*/
     
@@ -468,7 +796,9 @@ footer img {
     height: 53px;
 }
 /*Ends*/
+ 
     
+
 /*Suchita Overlay*/
     
 .aboutoverlay_Suchita {
@@ -518,7 +848,173 @@ footer img {
 }
 /*Ends*/
     
+
+    
+    
+/*Anil Overlay*/
+    
+.aboutoverlay_Anil {
+    left: 6px;
+    max-width: 98%;
+    position: fixed;
+    height: 220px;
 }
+    
+.image-anil {
+    float: left;
+    padding: 30px;
+    
+}
+.image-anil img{
+    width: 100px;
+    height: 100px;
+    
+}
+    
+.image-anil h1{
+    font-size: 20px;
+    
+}
+    
+.copyright-overlay{
+    font-size: 20px;
+    padding-top: 40px;
+}
+
+.content{
+    font-size: 23px;
+    
+}
+    
+#close_Anil {
+    left: 0%;
+    font-size: 57px;
+    width: 31px;
+    height: 71px;
+    top: -62px;
+    float: right;
+}
+    
+#bluebar_Anil {   
+    height: 53px;
+}
+/*Ends*/
+    
+ 
+    
+    
+/*Sushant Overlay*/
+    
+.aboutoverlay_Sushant {
+    left: 6px;
+    max-width: 98%;
+    position: fixed;
+    height: 220px;
+}
+    
+.image-sushant {
+    float: left;
+    padding: 30px;
+    
+}
+.image-sushant img{
+    width: 100px;
+    height: 100px;
+    
+}
+    
+.image-sushant h1{
+    font-size: 20px;
+    
+}
+    
+.copyright-overlay{
+    font-size: 20px;
+    padding-top: 40px;
+}
+
+.content{
+    font-size: 23px;
+    
+}
+    
+#close_Sushant {
+    left: 0%;
+    font-size: 57px;
+    width: 31px;
+    height: 71px;
+    top: -62px;
+    float: right;
+}
+    
+#bluebar_Sushant {   
+    height: 53px;
+}
+/*Ends*/
+    
+ 
+    
+    
+/*Dinesh Overlay*/
+    
+.aboutoverlay_Dinesh {
+    left: 6px;
+    max-width: 98%;
+    position: fixed;
+    height: 220px;
+}
+    
+.image-dinesh {
+    float: left;
+    padding: 30px;
+    
+}
+.image-dinesh img{
+    width: 100px;
+    height: 100px;
+    
+}
+    
+.image-dinesh h1{
+    font-size: 20px;
+    
+}
+    
+.copyright-overlay{
+    font-size: 20px;
+    padding-top: 40px;
+}
+
+.content{
+    font-size: 23px;
+    
+}
+    
+#close_Dinesh {
+    left: 0%;
+    font-size: 57px;
+    width: 31px;
+    height: 71px;
+    top: -62px;
+    float: right;
+}
+    
+#bluebar_Dinesh {   
+    height: 53px;
+}
+/*Ends*/
+    
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -572,7 +1068,9 @@ footer img {
 }
 
 /*Ends*/
+ 
     
+
 /*Snehal Overlay*/
     
 .aboutoverlay_Snehal {
@@ -621,8 +1119,10 @@ footer img {
     height: 53px;
 }
 /*Ends*/
+
     
-/*Snehal Overlay*/
+    
+/*Suchita Overlay*/
     
 .aboutoverlay_Suchita {
     left: 6px;
@@ -668,8 +1168,161 @@ footer img {
 }
 /*Ends*/
     
+
+
+/*Anil Overlay*/
+    
+.aboutoverlay_Anil {
+    left: 6px;
+    max-width: 98%;
+    position: fixed;
+    height: 220px;
 }
     
+.image-anil {
+    float: left;
+    padding: 30px;
+    
+}
+.image-anil img{
+    width: 100px;
+    height: 100px;
+    
+}
+    
+.image-anil h1{
+    font-size: 20px;
+    
+}
+    
+.copyright-overlay{
+    font-size: 20px;
+    padding-top: 40px;
+}
+
+
+    
+#close_Anil {
+    left: 0%;
+    font-size: 57px;
+    width: 31px;
+    height: 71px;
+    top: -62px;
+    float: right;
+}
+    
+#bluebar_Anil {   
+    height: 53px;
+}
+/*Ends*/
+    
+
+/*Sushant Overlay*/
+    
+.aboutoverlay_Sushant {
+    left: 6px;
+    max-width: 98%;
+    position: fixed;
+    height: 220px;
+}
+    
+.image-sushant {
+    float: left;
+    padding: 30px;
+    
+}
+.image-sushant img{
+    width: 100px;
+    height: 100px;
+    
+}
+    
+.image-sushant h1{
+    font-size: 20px;
+    
+}
+    
+.copyright-overlay{
+    font-size: 20px;
+    padding-top: 40px;
+}
+
+
+    
+#close_Sushant {
+    left: 0%;
+    font-size: 57px;
+    width: 31px;
+    height: 71px;
+    top: -62px;
+    float: right;
+}
+    
+#bluebar_Sushant {   
+    height: 53px;
+}
+/*Ends*/
+
+
+
+
+/*Dinesh Overlay*/
+    
+.aboutoverlay_Dinesh {
+    left: 6px;
+    max-width: 98%;
+    position: fixed;
+    height: 220px;
+}
+    
+.image-dinesh {
+    float: left;
+    padding: 30px;
+    
+}
+.image-dinesh img{
+    width: 100px;
+    height: 100px;
+    
+}
+    
+.image-dinesh h1{
+    font-size: 20px;
+    
+}
+    
+.copyright-overlay{
+    font-size: 20px;
+    padding-top: 40px;
+}
+
+
+    
+#close_Dinesh {
+    left: 0%;
+    font-size: 57px;
+    width: 31px;
+    height: 71px;
+    top: -62px;
+    float: right;
+}
+    
+#bluebar_Dinesh {   
+    height: 53px;
+}
+/*Ends*/
+
+
+}
+
+
+
+
+
+
+
+
+
 @media only screen and (max-width: 480px) {
 
 /*Sachin Overlay*/
@@ -726,6 +1379,8 @@ footer img {
     
 /*Ends*/
     
+    
+    
 /*Snehal Overlay*/
     
 .aboutoverlay_Snehal {
@@ -743,16 +1398,20 @@ footer img {
     font-size: 33px;
     
 }
-.image-snehal img{
-    width: 90px;
-    height: 90px;
-    
-}
     
 .image-snehal {
     float: left;
-    padding: 40px 130px;
+    padding: 50px 80px;
+    margin-top: -100px;
+}
+    
+    
+.image-snehal img{
+    width: 200px;
+    height: 200px;
+    
 }  
+    
 .image-snehal h1 {
     font-size: 25px;
     left: 100px;
@@ -774,7 +1433,10 @@ footer img {
     
 /*Ends*/
     
-/*Snehal Overlay*/
+    
+    
+    
+/*Suchita Overlay*/
     
 .aboutoverlay_Suchita {
     left: 3px;
@@ -809,6 +1471,141 @@ footer img {
 }
 
 #close_Suchita {
+    left: 0%;
+    font-size: 56px;
+    width: 42px;
+    height: 80px;
+    top: -66px;
+    float: right;
+}
+
+
+
+/*Anil Overlay*/
+    
+.aboutoverlay_Anil {
+    left: 3px;
+    max-width: 98%;
+    position: fixed;
+    height: 470px;
+}
+
+ #bluebar_Anil {   
+    height: 73px;
+}   
+
+
+.image-anil img{
+    width: 90px;
+    height: 90px;
+    
+}
+    
+.image-anil {
+    float: left;
+    padding: 40px 130px;
+}  
+.image-anil h1 {
+    font-size: 25px;
+    left: 100px;
+}    
+.copyright-overlay {
+    font-size: 23px;
+    text-align: center;
+    padding: 40px;
+}
+
+#close_Anil {
+    left: 0%;
+    font-size: 56px;
+    width: 42px;
+    height: 80px;
+    top: -66px;
+    float: right;
+}
+
+
+
+/*Sushant Overlay*/
+    
+.aboutoverlay_Sushant {
+    left: 3px;
+    max-width: 98%;
+    position: fixed;
+    height: 470px;
+}
+
+ #bluebar_Sushant {   
+    height: 73px;
+}   
+
+
+.image-sushant img{
+    width: 90px;
+    height: 90px;
+    
+}
+    
+.image-sushant {
+    float: left;
+    padding: 40px 130px;
+}  
+.image-sushant h1 {
+    font-size: 25px;
+    left: 100px;
+}    
+.copyright-overlay {
+    font-size: 23px;
+    text-align: center;
+    padding: 40px;
+}
+
+#close_Sushant {
+    left: 0%;
+    font-size: 56px;
+    width: 42px;
+    height: 80px;
+    top: -66px;
+    float: right;
+}
+    
+    
+    
+/*Dinesh Overlay*/
+    
+.aboutoverlay_Dinesh {
+    left: 3px;
+    max-width: 98%;
+    position: fixed;
+    height: 470px;
+}
+
+ #bluebar_Dinesh {   
+    height: 73px;
+}   
+
+
+.image-dinesh img{
+    width: 90px;
+    height: 90px;
+    
+}
+    
+.image-dinesh {
+    float: left;
+    padding: 40px 130px;
+}  
+.image-dinesh h1 {
+    font-size: 25px;
+    left: 100px;
+}    
+.copyright-overlay {
+    font-size: 23px;
+    text-align: center;
+    padding: 40px;
+}
+
+#close_Dinesh {
     left: 0%;
     font-size: 56px;
     width: 42px;
