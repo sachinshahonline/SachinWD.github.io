@@ -160,12 +160,11 @@ body{
 .ourservices{
     padding: 100px 0px 60px;
     height: 700px;
-    background: linear-gradient(#0f2862,#4f5f76);
-    color: #000;
-    background: radial-gradient(circle at 100% 50%, transparent 20%, #00D4F0 21%, #00D4F0 34%, transparent 35%, transparent),
-      radial-gradient(circle at 0% 50%, transparent 20%, #00D4F0 21%, #00D4F0 34%, transparent 35%, transparent) 0 -50px;
-    background-color: #EEEEEE;
-    background-size: 75px 100px;
+    background: linear-gradient(#ffffff 20%, rgba(255,255,255,0) 0) 0 0,
+radial-gradient(circle closest-side, #FFFFFF 33%, rgba(25,255,255,0) 0) 0 0,
+radial-gradient(circle closest-side, #FFFFFF 80%, rgba(155,155,255,0) 0) 55px 0 #f6546a;
+background-size: 110px 200px;
+background-repeat: repeat-x;
 }
 
 
@@ -243,11 +242,7 @@ body{
     height: 1430px;
     width: 100%;
     padding: 100px 0px 50px;
-    background:radial-gradient(circle, transparent 20%, slategray 20%,slategray 80%, transparent 80%, transparent),
-    radial-gradient(circle, transparent 20%, slategray 20%,slategray 80%, transparent 80%, transparent) 50px 50px,
-    linear-gradient(#A8B1BB 8px, transparent 8px) 0 -4px,linear-gradient(90deg, #A8B1BB 8px, transparent 8px) -4px 0;
-    background-color: slategray;
-    background-size: 100px 100px, 100px 100px, 50px 50px, 50px 50px;
+    background: #c0d6e4;
 }
 
 .portfolio h1{
@@ -271,15 +266,11 @@ body{
     height: 1130px;
     padding: 100px 0px 50px;
     width: 100%;
-    background:
-linear-gradient(27deg, #151515 5px, transparent 5px) 0 5px,
-linear-gradient(207deg, #151515 5px, transparent 5px) 10px 0px,
-linear-gradient(27deg, #222 5px, transparent 5px) 0px 10px,
-linear-gradient(207deg, #222 5px, transparent 5px) 10px 5px,
-linear-gradient(90deg, #1b1b1b 10px, transparent 10px),
-linear-gradient(#1d1d1d 25%, #1a1a1a 25%, #1a1a1a 50%, transparent 50%, transparent 75%, #242424 75%, #242424);
-background-color: #131313;
-background-size: 20px 20px;
+    background: linear-gradient(#ffffff 50%, rgba(255,255,255,0) 0) 0 0,
+radial-gradient(circle closest-side, #FFFFFF 53%, rgba(255,255,255,0) 0) 0 0,
+radial-gradient(circle closest-side, #FFFFFF 50%, rgba(255,255,255,0) 0) 55px 0 #003333;
+background-size: 110px 200px;
+background-repeat: repeat-x;
 }
 
 
@@ -399,6 +390,24 @@ background-size: 20px 20px;
 
 figcaption p{
     color: #fff !important;
+}
+
+
+.imagecontainer{
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+}
+
+.imagecontainer p {
+    font-size: 30px;
+    color: #fff;
+    position: absolute;
+    left: 50%;
+    top: 30%;
+    transform: translateX(-50%)!important;
+    overflow: hidden;
 }
 
 
@@ -628,7 +637,9 @@ background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
 
 
 @media(max-width: 479px){
+ 
     
+
     
 .hearderset h2{
      font-size: 22px;
@@ -678,6 +689,13 @@ background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
 
 .fixed-top{
     clear: both;
+}
+    
+.imagecontainer p {
+    font-size: 16px;
+    width: 100%;
+    position: absolute;
+    left: 78%;
 }
     
 .footer {
