@@ -72,7 +72,12 @@
     overflow: hidden;
     overflow-y: hidden;
     border-radius: 10px 10px 10px 10px;
-    
+    animation: Sachin-top 2s forwards;
+}
+
+@keyframes Sachin-top {
+  from {top: 150px;}
+  to {top: 50px;}
 }
 
 
@@ -120,23 +125,28 @@
 
 .image-sachin {
     float: left;
-    padding: 80px;
+    padding: 30px;
     
 }
 
 .image-sachin img{
-    width: 200px;
-    height: 200px;
-    
+    width: 300px;
+    height: 300px;
+    animation: sachin 2s;
 }
 
-.image-sachin h1{
+@keyframes sachin {
+  from {padding: 80px;}
+  to {padding: 0px;}
+}
+
+.image-sachin h1 {
     position: absolute;
     float: left;
     padding-bottom: 80px;
     font-family: "Segoe UI",Arial,sans-serif;
-    color:  #009688;
-    
+    color: #009688;
+    left: 60px;
 }
 
 
@@ -191,7 +201,12 @@ footer img {
     overflow: hidden;
     overflow-y: hidden;
     border-radius: 10px 10px 10px 10px;
-    
+    animation: Snehal-top 2s forwards;
+}
+
+@keyframes Snehal-top {
+  from {top: 150px;}
+  to {top: 50px;}
 }
 
 
@@ -237,14 +252,19 @@ footer img {
 
 .image-snehal {
     float: left;
-    padding: 80px;
+    padding: 30px;
     
 }
 
 .image-snehal img{
-    width: 200px;
-    height: 200px;
-    
+    width: 300px;
+    height: 300px;
+    animation: snehal 2s;
+}
+
+@keyframes snehal {
+  from {padding: 80px;}
+  to {padding: 0px;}
 }
 
 .image-snehal h1{
@@ -253,6 +273,7 @@ footer img {
     padding-bottom: 80px;
     font-family: "Segoe UI",Arial,sans-serif;
     color:  #256;
+    left: 60px;
     
 }
 
@@ -296,7 +317,12 @@ footer img {
     overflow: hidden;
     overflow-y: hidden;
     border-radius: 10px 10px 10px 10px;
-    
+    animation: Suchita-top 2s forwards;
+}
+
+@keyframes Suchita-top {
+  from {top: 150px;}
+  to {top: 50px;}
 }
 
 
@@ -342,15 +368,21 @@ footer img {
 
 .image-suchita {
     float: left;
-    padding: 80px;
+    padding: 30px;
     
 }
 
 .image-suchita img{
-    width: 200px;
-    height: 200px;
-    
+    width: 300px;
+    height: 300px;
+    animation: suchita 2s;
 }
+
+@keyframes suchita {
+  from {padding: 80px;}
+  to {padding: 0px;}
+}
+
 
 .image-suchita h1{
     position: absolute;
@@ -358,6 +390,7 @@ footer img {
     padding-bottom: 80px;
     font-family: "Segoe UI",Arial,sans-serif;
     color:  #e4405f;
+    left: 60px;
     
 }
 
@@ -401,7 +434,12 @@ footer img {
     overflow: hidden;
     overflow-y: hidden;
     border-radius: 10px 10px 10px 10px;
-    
+    animation: anil-top 2s forwards;
+}
+
+@keyframes anil-top {
+  from {top: 150px;}
+  to {top: 50px;}
 }
 
 
@@ -447,14 +485,19 @@ footer img {
 
 .image-anil {
     float: left;
-    padding: 80px;
+    padding: 30px;
     
 }
 
 .image-anil img{
-    width: 200px;
-    height: 200px;
-    
+    width: 300px;
+    height: 300px;
+    animation: anil 2s;
+}
+
+@keyframes anil {
+  from {padding: 80px;}
+  to {padding: 0px;}
 }
 
 .image-anil h1{
@@ -463,6 +506,7 @@ footer img {
     padding-bottom: 80px;
     font-family: "Segoe UI",Arial,sans-serif;
     color:  #e4405f;
+    left: 60px;
     
 }
 
@@ -505,10 +549,13 @@ footer img {
     overflow: hidden;
     overflow-y: hidden;
     border-radius: 10px 10px 10px 10px;
-    
+    animation: sushant-top 2s forwards;
 }
 
-
+@keyframes sushant-top {
+  from {top: 150px;}
+  to {top: 50px;}
+}
 
     
 #close_Sushant {
@@ -551,14 +598,19 @@ footer img {
 
 .image-sushant {
     float: left;
-    padding: 80px;
+    padding: 30px;
     
 }
 
 .image-sushant img{
-    width: 200px;
-    height: 200px;
-    
+    width: 300px;
+    height: 300px;
+    animation: sushant 2s;
+}
+
+@keyframes sushant {
+  from {padding: 80px;}
+  to {padding: 0px;}
 }
 
 .image-sushant h1{
@@ -567,7 +619,7 @@ footer img {
     padding-bottom: 80px;
     font-family: "Segoe UI",Arial,sans-serif;
     color:  #e4405f;
-    
+    left: 60px;
 }
 
 /*Sushant Ends*/
@@ -608,8 +660,14 @@ footer img {
     overflow: hidden;
     overflow-y: hidden;
     border-radius: 10px 10px 10px 10px;
-    
+    animation: dinesh-top 2s forwards;
 }
+
+@keyframes dinesh-top {
+  from {top: 150px;}
+  to {top: 50px;}
+}
+
 
 
 
@@ -654,14 +712,21 @@ footer img {
 
 .image-dinesh {
     float: left;
-    padding: 80px;
+    padding: 30px;
     
 }
 
 .image-dinesh img{
-    width: 200px;
-    height: 200px;
+    width: 300px;
+    height: 300px;
+/*    opacity: 0;*/
+    animation: dinesh 2s;
     
+}
+
+@keyframes dinesh {
+  from {padding: 80px;}
+  to {padding: 0px;}
 }
 
 .image-dinesh h1{
@@ -670,7 +735,7 @@ footer img {
     padding-bottom: 80px;
     font-family: "Segoe UI",Arial,sans-serif;
     color:  #e4405f;
-    
+    left: 60px;
 }
 
 /*Dinesh Ends*/
