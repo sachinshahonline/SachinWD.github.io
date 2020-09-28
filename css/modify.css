@@ -41,11 +41,11 @@
 /*Sachin Overlay*/
 
 .modal {
-  display: none; /* Hidden by default */
+  display: block; /* Hidden by default */
   position: fixed; /* Stay in place */
   z-index: 0; /* Sit on top */
   left: 0;
-  top: -600px;
+  top: -800px;
   width: 100%; /* Full width */
   height: 100%; /* Full height */
   overflow: hidden; /* Enable scroll if needed */
@@ -61,7 +61,7 @@
     display: block;
     max-width: 72%;
     height: 500px;
-    top: -600px;
+    top: -800px;
     left: 16%;
     right: 0;
     bottom: 0;
