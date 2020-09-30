@@ -129,9 +129,7 @@ body{
 
 .hearderset{
     padding-top: 200px;
-    box-sizing: border-box;
-    
-    
+    box-sizing: border-box;  
 }
 
 
@@ -139,21 +137,15 @@ body{
 .hearderset h2{
     font-size: 42px;
     text-transform: capitalize;
-    animation: scale 3s forwards;
-    transition: opacity 1s;
-    opacity: 0;
+    animation: rey 1s forwards;
 }
 
-@keyframes scale{
+@keyframes rey{
            0%{
             transform: scale(5);
-            transform: rotate(50deg);
-            opacity: .5;
         }
         100%{
             transform: scale(1);
-            opacity: 1;
-            transform: rotate(0deg);
             
         }
 }
@@ -162,18 +154,16 @@ body{
      font-size: 82px;
      text-transform: capitalize;
      font-weight: bold;
-     animation: zoomin 2s forwards;
+     animation: zoomin 3s forwards;
 }
 
 @keyframes zoomin{
            0%{
-            transform: scale(0);
-            transform: rotate(0deg);
+            transform: scale(-0);
         }
        
         100%{
             transform: scale(1);
-            transform: rotate(360deg);
             
         }
         
@@ -193,10 +183,10 @@ body{
     padding: 100px 0px 60px;
     height: 700px;
     background: linear-gradient(#6B7A8F 50%, rgba(255,255,255,0) 0) 0 0,
-radial-gradient(circle closest-side, #fc5226 53%, rgba(255,255,255,0) 0) 0 0,
-radial-gradient(circle closest-side, #fbaf08 50%, rgba(255,255,255,0) 0) 55px 0 #4f5f76;
-background-size: 110px 200px;
-background-repeat: repeat-x;
+    radial-gradient(circle closest-side, #fc5226 53%, rgba(255,255,255,0) 0) 0 0,
+    radial-gradient(circle closest-side, #fbaf08 50%, rgba(255,255,255,0) 0) 55px 0 #4f5f76;
+    background-size: 110px 200px;
+    background-repeat: repeat-x;
 }
 
 
@@ -205,6 +195,7 @@ background-repeat: repeat-x;
     font-size: 50px;
     text-transform: uppercase;
     padding-top: 50px;
+
 }
 
 .ourservices h2{
