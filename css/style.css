@@ -212,17 +212,29 @@ h2{
     background: #fff;
 }
 
-.hearderset button:hover{
-    animation: animatedown 2s;
+.hearderset button{
     position: relative;
-    background: #256!important;
-    transform: scale(1);
+    animation: fadeup 2s infinite;
+
 }
 
-@keyframes animatedown{
+@keyframes fadeup {
+        0%{
+            background: #987;
+        }
+        25%{
+            background: #698;
+            
+        }
+        50%{
+            background: #987;
+        }
+        100%{
+            background: #858;
+            
+        }
 
-    0%{transform: scale(6)};
-    100%{transform: scale(0)};
+    
 }
 
 
