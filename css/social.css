@@ -3,6 +3,11 @@ margin: 0;
 padding: 0;
 }
 
+
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     background: #30333a;
     font-family: arial;
@@ -60,6 +65,34 @@ ul li.google{
 
 ul li.whatsapp{
     background: #25D366;  
+}
+
+ul li.backtotop{
+    background: #000;
+    color: #fff;
+    display: block;
+    color: #fff;
+    font-size: 2rem;
+    animation: up 2s infinite;
+    margin-top: 2rem;
+}
+
+@keyframes up {
+        0%{
+            opacity: 0;
+        }
+        50%{
+            opacity: 1;
+            transform: translateY(0);
+            
+        }
+        100%{
+            opacity: 0;
+            transform: translateY(-1rem);
+            
+        }
+
+    
 }
 
 

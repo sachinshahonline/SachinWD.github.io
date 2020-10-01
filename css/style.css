@@ -1,3 +1,6 @@
+html{
+    scroll-behavior: smooth !important;
+}
 
 body{
     overflow-x: hidden;
@@ -69,6 +72,20 @@ body{
 
 .Sachin p{
     font-size: 1rem;
+}
+
+.Sachin p, .animateout{
+    animation: animateout 1s forwards;
+}
+
+@keyframes animateout{
+        0%{
+            transform: scale(0);
+        }
+        100%{
+            transform: scale(1);
+            
+        }
 }
 
 .image-me {
@@ -144,17 +161,6 @@ h2{
     animation: animatezoom 3s forwards;
 }
 
-/*
-@keyframes animateout{
-        0%{
-            transform: scale(5);
-        }
-        100%{
-            transform: scale(1);
-            
-        }
-}
-*/
 
 .hearderset h1{
      font-size: 82px;
@@ -212,25 +218,17 @@ h2{
     background: #fff;
 }
 
-.hearderset button{
-    position: relative;
-    animation: fadeup 2s infinite;
+.hearderset button:hover{
+    animation: fadeup 2s forwards;
 
 }
 
 @keyframes fadeup {
         0%{
-            background: #987;
-        }
-        25%{
-            background: #698;
-            
-        }
-        50%{
-            background: #987;
+            width: 50%;
         }
         100%{
-            background: #858;
+            width: 100%;
             
         }
 
