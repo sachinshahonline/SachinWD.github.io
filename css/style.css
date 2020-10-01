@@ -1,6 +1,4 @@
-html{
-    scroll-behavior: smooth !important;
-}
+
 
 body{
     overflow-x: hidden;
@@ -196,11 +194,12 @@ h2{
 .ourservices{
     padding: 100px 0px 60px;
     height: 700px;
-    background: linear-gradient(#6B7A8F 50%, rgba(255,255,255,0) 0) 0 0,
+    background: linear-gradient(#C71585 50%, rgba(255,255,255,0) 0) 0 0,
     radial-gradient(circle closest-side, #fc5226 53%, rgba(255,255,255,0) 0) 0 0,
-    radial-gradient(circle closest-side, #fbaf08 50%, rgba(255,255,255,0) 0) 55px 0 #4f5f76;
+    radial-gradient(circle closest-side, #fbaf08 50%, rgba(255,255,255,0) 0) 55px 0 #FF1493;
     background-size: 110px 200px;
     background-repeat: repeat-x;
+    border-radius: 20% 20% 70% 70%;
 }
 
 
@@ -209,6 +208,7 @@ h2{
     font-size: 50px;
     text-transform: uppercase;
     padding-top: 50px;
+    
 
 }
 
@@ -216,6 +216,7 @@ h2{
     font-weight: bold;
     text-transform: uppercase;
     background: #fff;
+    border-radius: 0 0 70% 70%;
 }
 
 .hearderset button:hover{
@@ -263,6 +264,8 @@ h2{
 .rowsetting p{
     color: #fff;
     padding: 10px;
+    border-radius: 2% 2% 2% 2%;
+    background: #A52A2A;
 }
 
 .rowsetting p:hover{
@@ -275,7 +278,7 @@ h2{
     margin-top: 20px;
     font-weight: bold;
     font-size: 30px;
-    background: #000;
+    background: #800000;
     color: #fff;
 }
 
@@ -296,11 +299,12 @@ h2{
     height: 1430px;
     width: 100%;
     padding: 100px 0px 50px;
-    background: linear-gradient(#DCC7AA 50%, rgba(255,255,255,0) 0) 0 0,
-radial-gradient(circle closest-side,  #1d1e22 53%, rgba(255,255,255,0) 0) 0 0,
-radial-gradient(circle closest-side, #eb1736 50%, rgba(255,255,255,0) 0) 55px 0 #ff3a22;
-background-size: 110px 200px;
-background-repeat: repeat-x;
+    background: linear-gradient(#DC143C 50%, rgba(255,255,255,0) 0) 0 0,
+    radial-gradient(circle closest-side,  #1d1e22 53%, rgba(255,255,255,0) 0) 0 0,
+    radial-gradient(circle closest-side, #eb1736 50%, rgba(255,255,255,0) 0) 55px 0 #ff3a22;
+    background-size: 110px 200px;
+    background-repeat: repeat-x;
+    border-radius: 0 0 70% 70%;
 }
 
 .portfolio h1{
@@ -325,10 +329,71 @@ background-repeat: repeat-x;
     padding: 100px 0px 50px;
     width: 100%;
     background: linear-gradient(#009688 50%, rgba(255,255,255,0) 0) 0 0,
-radial-gradient(circle closest-side, #c2b490 53%, rgba(255,255,255,0) 0) 0 0,
-radial-gradient(circle closest-side, #eb1736 50%, rgba(255,255,255,0) 0) 55px 0 #003333;
-background-size: 110px 200px;
-background-repeat: repeat-x;
+    radial-gradient(circle closest-side, #c2b490 53%, rgba(255,255,255,0) 0) 0 0,
+    radial-gradient(circle closest-side, #eb1736 50%, rgba(255,255,255,0) 0) 55px 0 #003333;
+    background-size: 110px 200px;
+    background-repeat: repeat-x;
+    border-radius: 0 0 70% 70%;
+}
+
+.glow-on-hover {
+    width: 220px;
+    height: 50px;
+    border: none;
+    outline: none;
+    color: #fff;
+    background: #111;
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    border-radius: 10px;
+}
+
+.glow-on-hover:before {
+    content: '';
+    background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+    position: absolute;
+    top: -2px;
+    left:-2px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    animation: glowing 20s linear infinite;
+    opacity: 0;
+    transition: opacity .3s ease-in-out;
+    border-radius: 10px;
+}
+
+.glow-on-hover:active {
+    color: #000
+}
+
+.glow-on-hover:active:after {
+    background: transparent;
+}
+
+.glow-on-hover:hover:before {
+    opacity: 1;
+}
+
+.glow-on-hover:after {
+    z-index: -1;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #111;
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+}
+
+@keyframes glowing {
+    0% { background-position: 0 0; }
+    50% { background-position: 400% 0; }
+    100% { background-position: 0 0; }
 }
 
 
