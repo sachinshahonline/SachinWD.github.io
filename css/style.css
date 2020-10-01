@@ -524,13 +524,37 @@ figcaption p{
 }
 
 .imagecontainer p {
-    font-size: 30px;
+    font-size: 200%;
     color: #fff;
     position: absolute;
     left: 50%;
     top: 30%;
-    transform: translateX(-50%)!important;
+    transform: translateX(-50%) rotateX(0deg)!important;
     overflow: hidden;
+    animation: textcolor 8s infinite;
+
+}
+
+@keyframes textcolor{
+    0%{
+        color: #FFFF00;
+        transform: rotateX(180deg);
+        font-size: 300%;
+    }
+    25%{
+        color: #00FF00;
+        font-size:100%;
+    }
+    50%{
+        color: #00FFFF;
+        transform: rotate(360deg);
+        font-size: 300%;
+    }
+    100%{
+        color: #800000;
+        font-size: 100%;
+    }
+
 }
 
 
@@ -543,13 +567,13 @@ figcaption p{
     width: 100%;
     height: 10rem;
     background-color:black;
-background-image:
-radial-gradient(white, rgba(255,255,255,.2) 2px, transparent 40px),
-radial-gradient(white, rgba(255,255,255,.15) 1px, transparent 30px),
-radial-gradient(white, rgba(255,255,255,.1) 2px, transparent 40px),
-radial-gradient(rgba(255,255,255,.4), rgba(255,255,255,.1) 2px, transparent 30px);
-background-size: 550px 550px, 350px 350px, 250px 250px, 150px 150px;
-background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
+    background-image:
+    radial-gradient(white, rgba(255,255,255,.2) 2px, transparent 40px),
+    radial-gradient(white, rgba(255,255,255,.15) 1px, transparent 30px),
+    radial-gradient(white, rgba(255,255,255,.1) 2px, transparent 40px),
+    radial-gradient(rgba(255,255,255,.4), rgba(255,255,255,.1) 2px, transparent 30px);
+    background-size: 550px 550px, 350px 350px, 250px 250px, 150px 150px;
+    background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
 }
 
 .footer h6{
@@ -820,6 +844,35 @@ background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
     width: 100%;
     position: absolute;
     left: 78%;
+    animation: textcolor 3s infinite;
+}
+    
+@keyframes textcolor{
+        0%{
+            opacity: 0;
+            color: #00CED1;
+        }
+        25%{
+            opacity: 1;
+            color: aqua;
+            
+        }
+        50%{
+            opacity: 0;
+            color: #897;
+            
+        }
+        75%{
+            opacity: 1;
+            color: #FFDEAD;
+            
+        }
+        100%{
+            opacity: 0;
+            color: #FFDEAD;
+            
+        }
+
 }
     
 .footer {
