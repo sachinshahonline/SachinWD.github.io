@@ -95,6 +95,34 @@ ul li.backtotop{
     
 }
 
+ul li.Gotobottom{
+    background: #000;
+    color: #fff;
+    display: block;
+    color: #fff;
+    font-size: 2rem;
+    animation: down 2s infinite;
+    top: -2rem;
+}
+
+@keyframes down {
+        0%{
+            opacity: 0;
+        }
+        50%{
+            opacity: 1;
+            transform: translateY(0);
+            
+        }
+        100%{
+            opacity: 0;
+            transform: translateY(2rem);
+            
+        }
+
+    
+}
+
 
 .slider{
     position: absolute;
