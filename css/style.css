@@ -216,7 +216,7 @@ h2{
     font-weight: bold;
     text-transform: uppercase;
     background: #fff;
-    border-radius: 0 0 70% 70%;
+    border-radius: 20% 20% 60% 60%;
 }
 
 .hearderset button:hover{
@@ -304,7 +304,7 @@ h2{
     radial-gradient(circle closest-side, #eb1736 50%, rgba(255,255,255,0) 0) 55px 0 #ff3a22;
     background-size: 110px 200px;
     background-repeat: repeat-x;
-    border-radius: 0 0 70% 70%;
+    border-radius: 20% 20% 50% 50%;
 }
 
 .portfolio h1{
@@ -333,7 +333,7 @@ h2{
     radial-gradient(circle closest-side, #eb1736 50%, rgba(255,255,255,0) 0) 55px 0 #003333;
     background-size: 110px 200px;
     background-repeat: repeat-x;
-    border-radius: 0 0 70% 70%;
+    border-radius: 20% 20% 70% 70%;
 }
 
 .glow-on-hover {
