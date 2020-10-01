@@ -226,10 +226,14 @@ h2{
 
 @keyframes fadeup {
         0%{
-            width: 50%;
+            width: 80%;
+        }
+        50%{
+            width: 100%;
+            
         }
         100%{
-            width: 100%;
+            width: 75%;
             
         }
 
