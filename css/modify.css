@@ -21,17 +21,18 @@
 
 
 .first_layout_click {
+    content: '';
     position: relative;
     background-size: 100% 100%;
     height: auto;
     left: 15%;
     top: 100px;
-    animation: topup 2s;
+    animation: topup 2s; 
 }
 
 @keyframes topup{
-    from{top:100px;};
-    to{top:50px;};
+    0%{top:100px;};
+    100%{top:30px;};
 }
 
 .second_layout_overlay {
