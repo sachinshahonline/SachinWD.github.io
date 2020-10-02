@@ -26,6 +26,12 @@
     height: auto;
     left: 15%;
     top: 100px;
+    animation: topup 2s;
+}
+
+@keyframes topup{
+    from{top:100px;};
+    to{top:50px;};
 }
 
 
