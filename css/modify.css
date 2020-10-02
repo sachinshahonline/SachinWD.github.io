@@ -27,12 +27,12 @@
     height: auto;
     left: 15%;
     top: 100px;
-    animation: topup 2s; 
+    animation: topup 2s forwards; 
 }
 
 @keyframes topup{
-    0%{top:100px;};
-    100%{top:30px;};
+    0%{top:100px;}
+    100%{top:30px;}
 }
 
 .second_layout_overlay {
@@ -53,6 +53,7 @@
     height: auto;
     left: 15%;
     top: 100px;
+    animation: topup 2s forwards; 
 }
 
 .third_layout_overlay {
@@ -76,6 +77,7 @@
     height: auto;
     left: 15%;
     top: 100px;
+    animation: topup 2s forwards; 
 }
 
 .close_lay {
