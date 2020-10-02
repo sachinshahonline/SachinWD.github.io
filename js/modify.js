@@ -84,6 +84,53 @@ $(document).ready(function(){
 });
 
 
+//Layout open
+
+$(document).ready(function(){
+  $("#first_layout").click(function(){
+    $(".first_layout_overlay , .close_lay").show(200); 
+
+  });
+});
+
+$(document).ready(function(){
+  $("#Second_layout").click(function(){
+    $(".second_layout_overlay , .close_lay").show(200); 
+
+  });
+});
+
+$(document).ready(function(){
+  $("#Third_layout").click(function(){
+    $(".third_layout_overlay , .close_lay").show(200); 
+
+  });
+});
+
+//Close
+
+$(document).ready(function(){
+  $(".first_layout_overlay , #close_lay").click(function(){
+    $(".first_layout_overlay , #close_lay").hide(200); 
+
+  });
+});
+
+$(document).ready(function(){
+  $(".second_layout_overlay , #close_lay").click(function(){
+    $(".second_layout_overlay , #close_lay").hide(200); 
+
+  });
+});
+
+$(document).ready(function(){
+  $(".third_layout_overlay , #close_lay").click(function(){
+    $(".third_layout_overlay , #close_lay").hide(200); 
+
+  });
+});
+
+
 
 
 
