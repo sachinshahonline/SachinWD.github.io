@@ -6,6 +6,7 @@
 
 }
 
+<<<<<<< HEAD
 .first_layout_overlay {
     position: fixed;
     background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.9));
@@ -50,51 +51,39 @@
 
 
 .second_layout_click {
+=======
+/*
+.first_layout {
+>>>>>>> parent of 563fe25... a
     position: relative;
+    background-image: url(../img/layout/1.jpeg);
     width: 100%;
-    height: auto;
-    left: 15%;
-    top: 100px;
-}
-
-.third_layout_overlay {
-    position: fixed;
-    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.9));
-    width: 100%;
-    height: 830px;
-     display: none; 
-    z-index: 99999;
-    top: 0%;
-    /* left: 10%; */
+    height: 200%;
+    background-size: 100% 100%;
     overflow-y: scroll;
-    overflow-X: hidden;
+    left: -3%;
+    z-index: 1;
+    display: none;
 }
 
-
-.third_layout_click {
-    position: relative;
+.first_layout_overlay {
+    position: absolute;
+    background:linear-gradient(rgba(0,0,0,0.5));
     width: 100%;
-    height: auto;
-    left: 15%;
-    top: 100px;
+    height: 500px;
+    background-size: contain;
 }
 
 .close_lay {
     font-size: 50px;
     color: #000;
-    float: left;
-    left: 70%;
+    left: 96%;
     position: relative;
-    cursor: pointer;
-    /* top: -490px; */
-    /* background: #158; */
-    /* border-radius: 50px; */
+    top: -20px;
+    background: #158;
+    border-radius: 50px;
 }
-
-.close_lay:hover {
-    color: #914;
-    font-weight: 900;
-}
+*/
 
 /*Sachin Overlay*/
 
@@ -1447,45 +1436,6 @@ footer img {
 
 
 @media only screen and (max-width: 480px) {
-    
-    
-    
-.first_layout_overlay {
-    overflow-X: hidden;
-    overflow-Y: hidden;
-}
-    
-    
-.first_layout_click {
-    left: 0%;
-   
-}
-    
-.second_layout_overlay {
-    overflow-X: hidden;
-    overflow-Y: hidden;
-}
-    
-    
-.second_layout_click {
-    left: 0%;
-   
-}
-    
-.third_layout_overlay {
-    overflow-X: hidden;
-    overflow-Y: hidden;
-}
-    
-    
-.third_layout_click {
-    left: 0%;
-   
-}
-    
-.close_lay{
-    display: none;
-}
 
 /*Sachin Overlay*/
     

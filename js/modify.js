@@ -84,6 +84,7 @@ $(document).ready(function(){
 });
 
 
+<<<<<<< HEAD
 //Layout open
 
 $(document).ready(function(){
@@ -131,6 +132,8 @@ $(document).ready(function(){
 });
 
 
+=======
+>>>>>>> parent of 563fe25... a
 
 
 
