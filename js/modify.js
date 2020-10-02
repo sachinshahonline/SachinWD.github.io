@@ -74,8 +74,6 @@ $(document).ready(function(){
     
     
     $("#close , #close_Snehal, #close_Suchita, #close_Anil, #close_Sushant, #close_Dinesh").click(function(){
-//    $(".aboutoverlay , .aboutoverlay_Snehal, .aboutoverlay_Suchita , .aboutoverlay_Anil , .aboutoverlay_Sushant, .aboutoverlay_Dinesh").hide(500);
-      
       
     $(".aboutoverlay , .aboutoverlay_Snehal, .aboutoverlay_Suchita , .aboutoverlay_Anil , .aboutoverlay_Sushant , .aboutoverlay_Dinesh").slideUp({top: '-600px'});
     $(".modal , .modal_Snehal, .modal_Suchita , .modal_Anil, .modal_Sushant, .modal_Dinesh").slideUp({top: '-800px'});
@@ -84,8 +82,7 @@ $(document).ready(function(){
 });
 
 
-<<<<<<< HEAD
-//Layout open
+
 
 $(document).ready(function(){
   $("#first_layout").click(function(){
@@ -108,7 +105,7 @@ $(document).ready(function(){
   });
 });
 
-//Close
+
 
 $(document).ready(function(){
   $(".first_layout_overlay , #close_lay").click(function(){
@@ -131,9 +128,6 @@ $(document).ready(function(){
   });
 });
 
-
-=======
->>>>>>> parent of 563fe25... a
 
 
 
