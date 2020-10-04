@@ -5,6 +5,30 @@ body{
 }
 
 
+.loader {
+    border: 16px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 16px solid #3498db;
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    animation: spin 2s linear infinite;
+    top: 50%;
+    left: 50%;
+    transform: translateX(50%);
+}
+
+/* Safari */
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
 .navbar{
  box-shadow: 2px 4px 5px 2px !important;
  background: #2f2626;
@@ -220,25 +244,15 @@ h2{
 }
 
 .hearderset button:hover{
-    animation: fadeup 2s forwards;
+    transition: border-radius .5s;
 
 }
 
-@keyframes fadeup {
-        0%{
-            width: 80%;
-        }
-        50%{
-            width: 100%;
-            
-        }
-        100%{
-            width: 75%;
-            
-        }
+.hearderset button:hover{
+    border-radius: 20px 20px 20px 20px;
 
-    
 }
+
 
 
 .rowsetting{
