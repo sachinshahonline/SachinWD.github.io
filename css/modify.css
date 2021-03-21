@@ -16,7 +16,7 @@
     z-index: 99999;
     top: 0%;
     overflow-y: scroll;
-    overflow-X: hidden;
+    overflow-X: scroll;
 }
 
 
@@ -44,7 +44,6 @@
     z-index: 99999;
     top: 0%;
     overflow-y: scroll;
-    overflow-X: hidden;
 }
 
 
@@ -53,7 +52,8 @@
     height: auto;
     left: 15%;
     top: 100px;
-    animation: topup 2s forwards; 
+    animation: topup 2s forwards;
+    
 }
 
 .third_layout_overlay {
@@ -65,7 +65,7 @@
     z-index: 99999;
     top: 0%;
     overflow-y: scroll;
-    overflow-X: hidden;
+/*    overflow-X: hidden;*/
 }
 
 
@@ -111,7 +111,7 @@
     z-index: 99999;
     top: 0%;
     overflow-y: scroll;
-    overflow-X: hidden;
+    overflow-x: scroll;
 }
 
 
