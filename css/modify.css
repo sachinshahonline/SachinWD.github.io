@@ -6,6 +6,10 @@
 
 }
 
+.resize_image {
+    max-width: 70% !important;
+}
+
 
 .first_layout_overlay {
     position: fixed;
